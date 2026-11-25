@@ -1,0 +1,25 @@
+{
+  "name": "msilogreader",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Drop a verbose MSI log (or ConfigMgr AppEnforce.log) in your browser and get the step that failed, the custom action behind it and what the error code means. 100% client-side.",
+  "license": "MIT",
+  "homepage": "https://getrff.com/msi-log/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deadarcher/MsiLogReader.git"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "node scripts/check-msi-log.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.16.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.9.3"
+  }
+}

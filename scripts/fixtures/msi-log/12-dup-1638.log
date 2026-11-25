@@ -1,0 +1,85 @@
+=== Verbose logging started: 11/23/2026  21:05:15  Build type: SHIP UNICODE 5.00.10011.00  Calling process: C:\Windows\system32\msiexec.exe ===
+MSI (c) (38:5C) [21:05:15:940]: Resetting cached policy values
+MSI (c) (38:5C) [21:05:15:940]: Machine policy value 'Debug' is 0
+MSI (c) (38:5C) [21:05:15:940]: ******* RunEngine:
+           ******* Product: C:\rfflog\rfflog-dup-1.0.1.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (c) (38:5C) [21:05:15:942]: Client-side and UI is none or basic: Running entire install on the server.
+MSI (c) (38:5C) [21:05:15:942]: Grabbed execution mutex.
+MSI (c) (38:5C) [21:05:15:956]: Cloaking enabled.
+MSI (c) (38:5C) [21:05:15:956]: Attempting to enable all disabled privileges before calling Install on Server
+MSI (c) (38:5C) [21:05:15:960]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (DC:CC) [21:05:15:968]: Running installation inside multi-package transaction C:\rfflog\rfflog-dup-1.0.1.msi
+MSI (s) (DC:CC) [21:05:15:968]: Grabbed execution mutex.
+MSI (s) (DC:B4) [21:05:15:970]: Resetting cached policy values
+MSI (s) (DC:B4) [21:05:15:970]: Machine policy value 'Debug' is 0
+MSI (s) (DC:B4) [21:05:15:970]: ******* RunEngine:
+           ******* Product: C:\rfflog\rfflog-dup-1.0.1.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (s) (DC:B4) [21:05:15:970]: Machine policy value 'DisableUserInstalls' is 0
+MSI (s) (DC:B4) [21:05:15:974]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:B4) [21:05:15:974]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (DC:B4) [21:05:15:976]: File will have security applied from OpCode.
+MSI (s) (DC:B4) [21:05:15:978]: SOFTWARE RESTRICTION POLICY: Verifying package --> 'C:\rfflog\rfflog-dup-1.0.1.msi' against software restriction policy
+MSI (s) (DC:B4) [21:05:15:978]: Note: 1: 2262 2: DigitalSignature 3: -2147287038 
+MSI (s) (DC:B4) [21:05:15:978]: SOFTWARE RESTRICTION POLICY: C:\rfflog\rfflog-dup-1.0.1.msi is not digitally signed
+MSI (s) (DC:B4) [21:05:15:980]: SOFTWARE RESTRICTION POLICY: C:\rfflog\rfflog-dup-1.0.1.msi is permitted to run at the 'unrestricted' authorization level.
+MSI (s) (DC:B4) [21:05:15:980]: MSCOREE not loaded loading copy from system32
+MSI (s) (DC:B4) [21:05:15:986]: End dialog not enabled
+MSI (s) (DC:B4) [21:05:15:986]: Original package ==> C:\rfflog\rfflog-dup-1.0.1.msi
+MSI (s) (DC:B4) [21:05:15:986]: Package we're running from ==> C:\Windows\Installer\fc801.msi
+MSI (s) (DC:B4) [21:05:15:986]: APPCOMPAT: Uninstall Flags override found.
+MSI (s) (DC:B4) [21:05:15:986]: APPCOMPAT: Uninstall VersionNT override found.
+MSI (s) (DC:B4) [21:05:15:986]: APPCOMPAT: Uninstall ServicePackLevel override found.
+MSI (s) (DC:B4) [21:05:15:988]: APPCOMPAT: looking for appcompat database entry with ProductCode '{7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E60}'.
+MSI (s) (DC:B4) [21:05:15:988]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:B4) [21:05:16:004]: Machine policy value 'DisablePatch' is 0
+MSI (s) (DC:B4) [21:05:16:004]: Machine policy value 'AllowLockdownPatch' is 0
+MSI (s) (DC:B4) [21:05:16:004]: Machine policy value 'DisableLUAPatching' is 0
+MSI (s) (DC:B4) [21:05:16:004]: Machine policy value 'DisableFlyWeightPatching' is 0
+MSI (s) (DC:B4) [21:05:16:006]: APPCOMPAT: looking for appcompat database entry with ProductCode '{7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E60}'.
+MSI (s) (DC:B4) [21:05:16:008]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:B4) [21:05:16:010]: Transforms are not secure.
+MSI (s) (DC:B4) [21:05:16:010]: Note: 1: 2205 2:  3: Control 
+MSI (s) (DC:B4) [21:05:16:010]: PROPERTY CHANGE: Adding MsiLogFileLocation property. Its value is 'C:\rfflog\logs\12-dup-1638.log'.
+MSI (s) (DC:B4) [21:05:16:010]: Command Line: CURRENTDIRECTORY=C:\Users\Administrator\Documents CLIENTUILEVEL=3 CLIENTPROCESSID=1592 
+MSI (s) (DC:B4) [21:05:16:010]: PROPERTY CHANGE: Adding PackageCode property. Its value is '{A334BF9F-ADCA-44A0-B0E1-1EDFD14F4260}'.
+MSI (s) (DC:B4) [21:05:16:010]: Product Code passed to Engine.Initialize:           ''
+MSI (s) (DC:B4) [21:05:16:010]: Product Code from property table before transforms: '{7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E60}'
+MSI (s) (DC:B4) [21:05:16:010]: Product Code from property table after transforms:  '{7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E60}'
+MSI (s) (DC:B4) [21:05:16:010]: Product registered: entering maintenance mode
+MSI (s) (DC:B4) [21:05:16:010]: Determined that existing product (either this product or the product being upgraded with a patch) is installed per-machine.
+MSI (s) (DC:B4) [21:05:16:010]: Product {7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E60} is admin assigned: LocalSystem owns the publish key.
+MSI (s) (DC:B4) [21:05:16:010]: Product {7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E60} is managed.
+MSI (s) (DC:B4) [21:05:16:010]: MSI_LUA: Unsetting the uninstall flag for repair operations
+MSI (s) (DC:B4) [21:05:16:010]: MSI_LUA: Credential prompt not required, user is an admin
+MSI (s) (DC:B4) [21:05:16:010]: PROPERTY CHANGE: Adding ProductState property. Its value is '5'.
+MSI (s) (DC:B4) [21:05:16:010]: PROPERTY CHANGE: Adding ProductToBeRegistered property. Its value is '1'.
+MSI (s) (DC:B4) [21:05:16:010]: Entering CMsiConfigurationManager::SetLastUsedSource.
+MSI (s) (DC:B4) [21:05:16:010]: Specifed source is already in a list.
+MSI (s) (DC:B4) [21:05:16:010]: User policy value 'SearchOrder' is 'nmu'
+MSI (s) (DC:B4) [21:05:16:010]: Machine policy value 'DisableBrowse' is 0
+MSI (s) (DC:B4) [21:05:16:010]: Machine policy value 'AllowLockdownBrowse' is 0
+MSI (s) (DC:B4) [21:05:16:010]: Adding new sources is allowed.
+MSI (s) (DC:B4) [21:05:16:010]: PROPERTY CHANGE: Adding PackagecodeChanging property. Its value is '1'.
+MSI (s) (DC:B4) [21:05:16:014]: Note: 1: 1729 
+MSI (s) (DC:B4) [21:05:16:014]: Product: RFF Log Fixture dup -- Configuration failed.
+
+MSI (s) (DC:B4) [21:05:16:014]: Windows Installer reconfigured the product. Product Name: RFF Log Fixture dup. Product Version: 1.0.1. Product Language: 1033. Manufacturer: RFF Lab. Reconfiguration success or error status: 1638.
+
+MSI (s) (DC:B4) [21:05:16:016]: MainEngineThread is returning 1638
+MSI (s) (DC:CC) [21:05:16:016]: No System Restore sequence number for this installation.
+Another version of this product is already installed. Installation of this version cannot continue. To configure or remove the existing version of this product, use Add/Remove Programs on the Control Panel.
+{7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E60}
+MSI (s) (DC:CC) [21:05:16:018]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:CC) [21:05:16:018]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:CC) [21:05:16:018]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (DC:CC) [21:05:16:018]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:CC) [21:05:16:018]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:CC) [21:05:16:018]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (38:5C) [21:05:16:020]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (38:5C) [21:05:16:022]: MainEngineThread is returning 1638
+=== Verbose logging stopped: 11/23/2026  21:05:16 ===
+

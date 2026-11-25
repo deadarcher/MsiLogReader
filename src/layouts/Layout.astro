@@ -1,0 +1,43 @@
+---
+/**
+ * Minimal HTML shell for MSI Log Reader. The tool is a single client-side page, so this is
+ * deliberately tiny: design tokens via global.css, basic SEO/OG meta, a slot for the page.
+ */
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "MSI Log Reader - why did this MSI fail?",
+  description = "Drop a verbose MSI log (or ConfigMgr AppEnforce.log) in your browser and get the step that failed, the custom action behind it and what the error code means. 100% client-side.",
+} = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content={Astro.generator} />
+
+  <title>{title}</title>
+  <meta name="description" content={description} />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:site_name" content="MSI Log Reader" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+  <slot />
+</body>
+</html>

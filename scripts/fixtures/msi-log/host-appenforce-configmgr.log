@@ -1,0 +1,452 @@
+﻿<![LOG[    Process 32836 terminated with exitcode: 1603]LOG]!><time="10:30:26.201+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:30:26.207+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:30:26.208+420" date="10-15-2026" component="AppEnforce" context="" type="2" thread="48928" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (14 seconds) for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0], Revision: 1, User SID: ] ++++++]LOG]!><time="10:30:26.209+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "OFFICEWIFI Removal" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, Revision - 3, ContentPath - C:\WINDOWS\ccmcache\l, Execution Context - System]LOG]!><time="10:30:26.653+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type OFFICEWIFI Removal(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, revision 3) for system.]LOG]!><time="10:30:26.667+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, Revision: 3]]LOG]!><time="10:30:26.729+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="localapphandler.cpp:291">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: "Remove OFFICEWIFI.bat"
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\l
+	Working directory: ]LOG]!><time="10:30:26.730+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\l]LOG]!><time="10:30:26.735+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\l\Remove OFFICEWIFI.bat"]LOG]!><time="10:30:26.737+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcontext.cpp:338">
+<![LOG[    Executing Command line: "C:\WINDOWS\ccmcache\l\Remove OFFICEWIFI.bat" with system context]LOG]!><time="10:30:26.738+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\l]LOG]!><time="10:30:26.739+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="10:30:26.748+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 27432 to finish.  Timeout = 120 minutes.]LOG]!><time="10:30:26.751+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:2014">
+<![LOG[    Process 27432 terminated with exitcode: 0]LOG]!><time="10:30:26.913+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 0 in exit codes table...]LOG]!><time="10:30:26.915+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:510">
+<![LOG[    Matched exit code 0 to a Success entry in exit codes table.]LOG]!><time="10:30:26.915+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:589">
+<![LOG[    Performing detection of app deployment type OFFICEWIFI Removal(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, revision 3) for system.]LOG]!><time="10:30:26.930+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, Revision: 3]]LOG]!><time="10:30:26.958+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="localapphandler.cpp:291">
+<![LOG[++++++ App enforcement completed (0 seconds) for App DT "OFFICEWIFI Removal" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6], Revision: 3, User SID: ] ++++++]LOG]!><time="10:30:26.961+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Box Tools (Box Edit) 4.17.0.935" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e, Revision - 5, ContentPath - C:\WINDOWS\ccmcache\8, Execution Context - System]LOG]!><time="10:30:27.217+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Box Tools (Box Edit) 4.17.0.935(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e, revision 5) for system.]LOG]!><time="10:30:27.221+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e, Revision: 5]]LOG]!><time="10:30:27.234+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="localapphandler.cpp:291">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\8
+	Working directory: ]LOG]!><time="10:30:27.235+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\8]LOG]!><time="10:30:27.239+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\8\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="10:30:27.244+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcontext.cpp:338">
+<![LOG[    Executing Command line: "C:\WINDOWS\ccmcache\8\PatchMyPC-ScriptRunner.exe" /InstallPackage with system context]LOG]!><time="10:30:27.245+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\8]LOG]!><time="10:30:27.246+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is NoAction]LOG]!><time="10:30:27.259+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 61020 to finish.  Timeout = 120 minutes.]LOG]!><time="10:30:27.262+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:2014">
+<![LOG[    Process 61020 terminated with exitcode: 1603]LOG]!><time="10:30:30.176+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:30:30.177+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:30:30.178+420" date="10-15-2026" component="AppEnforce" context="" type="2" thread="48928" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (2 seconds) for App DT "Box Tools (Box Edit) 4.17.0.935" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e], Revision: 5, User SID: ] ++++++]LOG]!><time="10:30:30.180+420" date="10-15-2026" component="AppEnforce" context="" type="1" thread="48928" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "PowerShell 7-x64 - Windows Installer (*.msi file)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4, Revision - 3, ContentPath - C:\WINDOWS\ccmcache\c, Execution Context - System]LOG]!><time="21:00:05.021+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type PowerShell 7-x64 - Windows Installer (*.msi file)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4, revision 3) for system.]LOG]!><time="21:00:05.032+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4, Revision: 3]]LOG]!><time="21:00:05.047+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="localapphandler.cpp:291">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: msiexec /i "PowerShell-7.3.1-win-x64.msi" /q
+	Allow user interaction: No
+	UI mode: 0
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\c
+	Working directory: ]LOG]!><time="21:00:05.050+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\c]LOG]!><time="21:00:05.054+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:189">
+<![LOG[Found executable file msiexec with complete path C:\WINDOWS\system32\msiexec.exe]LOG]!><time="21:00:05.061+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="executility.cpp:188">
+<![LOG[    Prepared command line: "C:\WINDOWS\system32\msiexec.exe" /i "PowerShell-7.3.1-win-x64.msi" /q /qn]LOG]!><time="21:00:05.062+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:338">
+<![LOG[Valid MSI Package path = C:\WINDOWS\ccmcache\c\PowerShell-7.3.1-win-x64.msi]LOG]!><time="21:00:05.066+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:765">
+<![LOG[    Advertising MSI package [C:\WINDOWS\ccmcache\c\PowerShell-7.3.1-win-x64.msi] to the system.]LOG]!><time="21:00:05.067+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcommon.cpp:123">
+<![LOG[    Executing Command line: "C:\WINDOWS\system32\msiexec.exe" /i "PowerShell-7.3.1-win-x64.msi" /q /qn with system context]LOG]!><time="21:00:05.605+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\c]LOG]!><time="21:00:05.606+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="21:00:05.614+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 60500 to finish.  Timeout = 120 minutes.]LOG]!><time="21:00:05.617+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:2014">
+<![LOG[    Process 60500 terminated with exitcode: 1603]LOG]!><time="21:00:05.841+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="21:00:05.842+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="21:00:05.843+420" date="10-17-2026" component="AppEnforce" context="" type="2" thread="62840" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (0 seconds) for App DT "PowerShell 7-x64 - Windows Installer (*.msi file)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4], Revision: 3, User SID: ] ++++++]LOG]!><time="21:00:05.846+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "PowerShell 7-x64 - Windows Installer (*.msi file)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4, Revision - 3, ContentPath - C:\WINDOWS\ccmcache\c, Execution Context - System]LOG]!><time="21:00:07.199+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type PowerShell 7-x64 - Windows Installer (*.msi file)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4, revision 3) for system.]LOG]!><time="21:00:07.208+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4, Revision: 3]]LOG]!><time="21:00:07.222+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="localapphandler.cpp:291">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: msiexec /i "PowerShell-7.3.1-win-x64.msi" /q
+	Allow user interaction: No
+	UI mode: 0
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\c
+	Working directory: ]LOG]!><time="21:00:07.223+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\c]LOG]!><time="21:00:07.226+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:189">
+<![LOG[Found executable file msiexec with complete path C:\WINDOWS\system32\msiexec.exe]LOG]!><time="21:00:07.232+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="executility.cpp:188">
+<![LOG[    Prepared command line: "C:\WINDOWS\system32\msiexec.exe" /i "PowerShell-7.3.1-win-x64.msi" /q /qn]LOG]!><time="21:00:07.232+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:338">
+<![LOG[Valid MSI Package path = C:\WINDOWS\ccmcache\c\PowerShell-7.3.1-win-x64.msi]LOG]!><time="21:00:07.233+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcontext.cpp:765">
+<![LOG[    Advertising MSI package [C:\WINDOWS\ccmcache\c\PowerShell-7.3.1-win-x64.msi] to the system.]LOG]!><time="21:00:07.234+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcommon.cpp:123">
+<![LOG[    Executing Command line: "C:\WINDOWS\system32\msiexec.exe" /i "PowerShell-7.3.1-win-x64.msi" /q /qn with system context]LOG]!><time="21:00:07.526+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\c]LOG]!><time="21:00:07.526+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="21:00:07.534+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 9352 to finish.  Timeout = 120 minutes.]LOG]!><time="21:00:07.537+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:2014">
+<![LOG[    Process 9352 terminated with exitcode: 1603]LOG]!><time="21:00:07.754+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="21:00:07.755+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="21:00:07.756+420" date="10-17-2026" component="AppEnforce" context="" type="2" thread="62840" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (0 seconds) for App DT "PowerShell 7-x64 - Windows Installer (*.msi file)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7cecfe05-6551-42f4-8a20-901fafc8bfd4], Revision: 3, User SID: ] ++++++]LOG]!><time="21:00:07.757+420" date="10-17-2026" component="AppEnforce" context="" type="1" thread="62840" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Google Legacy Browser Support - Windows Installer (*.msi file)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_5462d348-b9b1-4402-9128-9f2c1cff8c4e, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\3, Execution Context - System]LOG]!><time="09:22:23.762+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Google Legacy Browser Support - Windows Installer (*.msi file)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_5462d348-b9b1-4402-9128-9f2c1cff8c4e, revision 1) for system.]LOG]!><time="09:22:23.775+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2539">
+<![LOG[+++ MSI application not discovered [MSI Product Code: {FAB5662C-3F21-4DB6-9A21-D32DE1C81A48}, MSI Product version: ]]LOG]!><time="09:22:23.776+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="msihandler.cpp:131">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: msiexec /i "LegacyBrowserSupport_6.0.2.0_en_x64.msi" /q
+	Allow user interaction: No
+	UI mode: 0
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\3
+	Working directory: ]LOG]!><time="09:22:23.778+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\3]LOG]!><time="09:22:23.782+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:189">
+<![LOG[Found executable file msiexec with complete path C:\WINDOWS\system32\msiexec.exe]LOG]!><time="09:22:23.791+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="executility.cpp:188">
+<![LOG[    Prepared command line: "C:\WINDOWS\system32\msiexec.exe" /i "LegacyBrowserSupport_6.0.2.0_en_x64.msi" /q /qn]LOG]!><time="09:22:23.792+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:338">
+<![LOG[Valid MSI Package path = C:\WINDOWS\ccmcache\3\LegacyBrowserSupport_6.0.2.0_en_x64.msi]LOG]!><time="09:22:23.794+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:765">
+<![LOG[    Advertising MSI package [C:\WINDOWS\ccmcache\3\LegacyBrowserSupport_6.0.2.0_en_x64.msi] to the system.]LOG]!><time="09:22:23.796+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcommon.cpp:123">
+<![LOG[    Executing Command line: "C:\WINDOWS\system32\msiexec.exe" /i "LegacyBrowserSupport_6.0.2.0_en_x64.msi" /q /qn with system context]LOG]!><time="09:22:23.976+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\3]LOG]!><time="09:22:23.976+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="09:22:23.984+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 17916 to finish.  Timeout = 120 minutes.]LOG]!><time="09:22:23.988+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2014">
+<![LOG[    Process 17916 terminated with exitcode: 1603]LOG]!><time="09:22:24.176+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="09:22:24.176+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="09:22:24.178+420" date="10-26-2026" component="AppEnforce" context="" type="2" thread="17120" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (0 seconds) for App DT "Google Legacy Browser Support - Windows Installer (*.msi file)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_5462d348-b9b1-4402-9128-9f2c1cff8c4e], Revision: 1, User SID: ] ++++++]LOG]!><time="09:22:24.181+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Microsoft Teams (work or school) - Windows app package (*.appx, *.appxbundle, *.msix, *.msixbundle)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_11b1cd32-9037-4490-a15d-3474eac828e2, Revision - 4, ContentPath - C:\WINDOWS\ccmcache\5, Execution Context - System]LOG]!><time="09:22:24.591+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2094">
+<![LOG[Install package uri: C:\\WINDOWS\\ccmcache\\5\\MSTeams-x64.msix]LOG]!><time="09:22:25.198+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="wmibridgeofflineinstallationstrategy.cpp:117">
+<![LOG[Installation failure, error code = 0x800700B7]LOG]!><time="09:22:27.366+420" date="10-26-2026" component="AppEnforce" context="" type="3" thread="17120" file="WmiBridgeCommon.cpp:165">
+<![LOG[+++ Enforce completed for ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_11b1cd32-9037-4490-a15d-3474eac828e2, 4 using Package: MSTeams_24074.2321.2810.3500_x64__8wekyb3d8bbwe. Returning: 800700b7]LOG]!><time="09:22:27.367+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appxhandler.cpp:635">
+<![LOG[+++ AppX Install Info added. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_11b1cd32-9037-4490-a15d-3474eac828e2]]LOG]!><time="09:22:27.372+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appxhandler.cpp:353">
+<![LOG[++++++ App enforcement completed (2 seconds) for App DT "Microsoft Teams (work or school) - Windows app package (*.appx, *.appxbundle, *.msix, *.msixbundle)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_11b1cd32-9037-4490-a15d-3474eac828e2], Revision: 4, User SID: ] ++++++]LOG]!><time="09:22:27.374+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1p, Execution Context - System]LOG]!><time="09:22:27.769+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, revision 1) for system.]LOG]!><time="09:22:27.780+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision: 1]]LOG]!><time="09:22:28.450+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1p
+	Working directory: ]LOG]!><time="09:22:28.462+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1p]LOG]!><time="09:22:28.467+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1p\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="09:22:28.474+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="09:22:28.544+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 41260 to finish.  Timeout = 120 minutes.]LOG]!><time="09:22:28.548+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2014">
+<![LOG[    Process 41260 terminated with exitcode: 1603]LOG]!><time="09:22:41.496+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="09:22:41.497+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="09:22:41.498+420" date="10-26-2026" component="AppEnforce" context="" type="2" thread="17120" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (13 seconds) for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b], Revision: 1, User SID: ] ++++++]LOG]!><time="09:22:41.499+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1n, Execution Context - System]LOG]!><time="09:22:41.866+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, revision 1) for system.]LOG]!><time="09:22:41.879+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision: 1]]LOG]!><time="09:22:42.588+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1n
+	Working directory: ]LOG]!><time="09:22:42.589+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1n]LOG]!><time="09:22:42.592+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1n\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="09:22:42.599+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="09:22:42.648+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 26604 to finish.  Timeout = 120 minutes.]LOG]!><time="09:22:42.651+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2014">
+<![LOG[    Process 26604 terminated with exitcode: 1603]LOG]!><time="09:22:56.230+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="09:22:56.231+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="09:22:56.231+420" date="10-26-2026" component="AppEnforce" context="" type="2" thread="17120" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (14 seconds) for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0], Revision: 1, User SID: ] ++++++]LOG]!><time="09:22:56.233+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "OFFICEWIFI Removal" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, Revision - 3, ContentPath - C:\WINDOWS\ccmcache\l, Execution Context - System]LOG]!><time="09:22:56.585+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type OFFICEWIFI Removal(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, revision 3) for system.]LOG]!><time="09:22:56.594+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, Revision: 3]]LOG]!><time="09:22:56.635+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="localapphandler.cpp:291">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: "Remove OFFICEWIFI.bat"
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\l
+	Working directory: ]LOG]!><time="09:22:56.636+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\l]LOG]!><time="09:22:56.638+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\l\Remove OFFICEWIFI.bat"]LOG]!><time="09:22:56.640+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:338">
+<![LOG[    Executing Command line: "C:\WINDOWS\ccmcache\l\Remove OFFICEWIFI.bat" with system context]LOG]!><time="09:22:56.641+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\l]LOG]!><time="09:22:56.641+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="09:22:56.648+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 16964 to finish.  Timeout = 120 minutes.]LOG]!><time="09:22:56.650+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2014">
+<![LOG[    Process 16964 terminated with exitcode: 0]LOG]!><time="09:22:56.767+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 0 in exit codes table...]LOG]!><time="09:22:56.767+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:510">
+<![LOG[    Matched exit code 0 to a Success entry in exit codes table.]LOG]!><time="09:22:56.769+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:589">
+<![LOG[    Performing detection of app deployment type OFFICEWIFI Removal(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, revision 3) for system.]LOG]!><time="09:22:56.783+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6, Revision: 3]]LOG]!><time="09:22:56.811+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="localapphandler.cpp:291">
+<![LOG[++++++ App enforcement completed (0 seconds) for App DT "OFFICEWIFI Removal" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_95eead4e-b641-4000-b2f8-7fa3c0141eb6], Revision: 3, User SID: ] ++++++]LOG]!><time="09:22:56.812+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Box Tools (Box Edit) 4.17.0.935" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e, Revision - 5, ContentPath - C:\WINDOWS\ccmcache\8, Execution Context - System]LOG]!><time="09:22:57.057+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Box Tools (Box Edit) 4.17.0.935(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e, revision 5) for system.]LOG]!><time="09:22:57.062+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e, Revision: 5]]LOG]!><time="09:22:57.088+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="localapphandler.cpp:291">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\8
+	Working directory: ]LOG]!><time="09:22:57.089+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\8]LOG]!><time="09:22:57.092+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\8\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="09:22:57.097+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcontext.cpp:338">
+<![LOG[    Executing Command line: "C:\WINDOWS\ccmcache\8\PatchMyPC-ScriptRunner.exe" /InstallPackage with system context]LOG]!><time="09:22:57.097+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\8]LOG]!><time="09:22:57.098+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is NoAction]LOG]!><time="09:22:57.110+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 19616 to finish.  Timeout = 120 minutes.]LOG]!><time="09:22:57.113+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2014">
+<![LOG[    Process 19616 terminated with exitcode: 1603]LOG]!><time="09:22:59.958+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="09:22:59.959+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="09:22:59.960+420" date="10-26-2026" component="AppEnforce" context="" type="2" thread="17120" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (2 seconds) for App DT "Box Tools (Box Edit) 4.17.0.935" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_f8e43887-9ab5-4d6f-bdca-80d9179b770e], Revision: 5, User SID: ] ++++++]LOG]!><time="09:22:59.961+420" date="10-26-2026" component="AppEnforce" context="" type="1" thread="17120" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1p, Execution Context - System]LOG]!><time="10:56:08.693+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, revision 1) for system.]LOG]!><time="10:56:08.707+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision: 1]]LOG]!><time="10:56:10.325+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1p
+	Working directory: ]LOG]!><time="10:56:10.328+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1p]LOG]!><time="10:56:10.332+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1p\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="10:56:10.340+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="10:56:10.413+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 17640 to finish.  Timeout = 120 minutes.]LOG]!><time="10:56:10.417+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appexcnlib.cpp:2014">
+<![LOG[    Process 17640 terminated with exitcode: 1603]LOG]!><time="10:56:24.333+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:56:24.335+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:56:24.335+420" date="10-29-2026" component="AppEnforce" context="" type="2" thread="27884" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (15 seconds) for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b], Revision: 1, User SID: ] ++++++]LOG]!><time="10:56:24.339+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1n, Execution Context - System]LOG]!><time="10:56:24.748+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, revision 1) for system.]LOG]!><time="10:56:24.760+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision: 1]]LOG]!><time="10:56:26.167+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1n
+	Working directory: ]LOG]!><time="10:56:26.167+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1n]LOG]!><time="10:56:26.171+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1n\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="10:56:26.187+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="10:56:26.241+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 14864 to finish.  Timeout = 120 minutes.]LOG]!><time="10:56:26.244+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appexcnlib.cpp:2014">
+<![LOG[    Process 14864 terminated with exitcode: 1603]LOG]!><time="10:56:41.066+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:56:41.067+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:56:41.068+420" date="10-29-2026" component="AppEnforce" context="" type="2" thread="27884" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (16 seconds) for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0], Revision: 1, User SID: ] ++++++]LOG]!><time="10:56:41.070+420" date="10-29-2026" component="AppEnforce" context="" type="1" thread="27884" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1p, Execution Context - System]LOG]!><time="10:35:31.254+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, revision 1) for system.]LOG]!><time="10:35:31.268+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision: 1]]LOG]!><time="10:35:32.954+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1p
+	Working directory: ]LOG]!><time="10:35:32.967+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1p]LOG]!><time="10:35:32.971+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1p\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="10:35:32.979+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="10:35:33.051+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 21852 to finish.  Timeout = 120 minutes.]LOG]!><time="10:35:33.053+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appexcnlib.cpp:2014">
+<![LOG[    Process 21852 terminated with exitcode: 1603]LOG]!><time="10:35:47.250+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:35:47.251+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:35:47.251+480" date="11-05-2026" component="AppEnforce" context="" type="2" thread="46564" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (16 seconds) for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b], Revision: 1, User SID: ] ++++++]LOG]!><time="10:35:47.254+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1n, Execution Context - System]LOG]!><time="10:35:47.654+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, revision 1) for system.]LOG]!><time="10:35:47.667+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision: 1]]LOG]!><time="10:35:49.153+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1n
+	Working directory: ]LOG]!><time="10:35:49.155+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1n]LOG]!><time="10:35:49.158+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1n\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="10:35:49.164+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="10:35:49.219+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 11936 to finish.  Timeout = 120 minutes.]LOG]!><time="10:35:49.221+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appexcnlib.cpp:2014">
+<![LOG[    Process 11936 terminated with exitcode: 1603]LOG]!><time="10:36:05.372+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:36:05.373+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:36:05.373+480" date="11-05-2026" component="AppEnforce" context="" type="2" thread="46564" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (17 seconds) for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0], Revision: 1, User SID: ] ++++++]LOG]!><time="10:36:05.375+480" date="11-05-2026" component="AppEnforce" context="" type="1" thread="46564" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Desktop - Vendor Tool Update" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1w, Execution Context - Any]LOG]!><time="09:27:36.736+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Desktop - Vendor Tool Update(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, revision 1) for system.]LOG]!><time="09:27:36.751+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, Revision: 1]]LOG]!><time="09:27:36.990+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: "VendorTool.cmd"
+	Allow user interaction: No
+	UI mode: 0
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1w
+	Working directory: ]LOG]!><time="09:27:36.992+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1w]LOG]!><time="09:27:36.998+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1w\VendorTool.cmd"]LOG]!><time="09:27:37.001+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appcontext.cpp:338">
+<![LOG[    Executing Command line: "C:\WINDOWS\ccmcache\1w\VendorTool.cmd" with system context]LOG]!><time="09:27:37.001+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\1w]LOG]!><time="09:27:37.002+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="09:27:37.007+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 32416 to finish.  Timeout = 120 minutes.]LOG]!><time="09:27:37.011+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appexcnlib.cpp:2014">
+<![LOG[    Process 32416 terminated with exitcode: 0]LOG]!><time="09:27:38.564+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 0 in exit codes table...]LOG]!><time="09:27:38.565+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appexcnlib.cpp:510">
+<![LOG[    Matched exit code 0 to a Success entry in exit codes table.]LOG]!><time="09:27:38.566+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appexcnlib.cpp:589">
+<![LOG[    Performing detection of app deployment type Desktop - Vendor Tool Update(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, revision 1) for system.]LOG]!><time="09:27:38.584+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appprovider.cpp:2539">
+<![LOG[+++ Discovered application [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, Revision: 1]]LOG]!><time="09:27:38.855+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="scripthandler.cpp:491">
+<![LOG[++++++ App enforcement completed (2 seconds) for App DT "Desktop - Vendor Tool Update" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4], Revision: 1, User SID: ] ++++++]LOG]!><time="09:27:38.858+480" date="11-09-2026" component="AppEnforce" context="" type="1" thread="37984" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1p, Execution Context - System]LOG]!><time="10:16:22.225+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, revision 1) for system.]LOG]!><time="10:16:22.242+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision: 1]]LOG]!><time="10:16:23.398+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1p
+	Working directory: ]LOG]!><time="10:16:23.401+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1p]LOG]!><time="10:16:23.407+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1p\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="10:16:23.417+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="10:16:23.495+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 22408 to finish.  Timeout = 120 minutes.]LOG]!><time="10:16:23.502+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appexcnlib.cpp:2014">
+<![LOG[    Process 22408 terminated with exitcode: 1603]LOG]!><time="10:16:38.633+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:16:38.634+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:16:38.636+480" date="11-12-2026" component="AppEnforce" context="" type="2" thread="2024" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (16 seconds) for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b], Revision: 1, User SID: ] ++++++]LOG]!><time="10:16:38.642+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1n, Execution Context - System]LOG]!><time="10:16:39.150+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, revision 1) for system.]LOG]!><time="10:16:39.165+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision: 1]]LOG]!><time="10:16:40.090+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1n
+	Working directory: ]LOG]!><time="10:16:40.092+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1n]LOG]!><time="10:16:40.096+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1n\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="10:16:40.106+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="10:16:40.169+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 49632 to finish.  Timeout = 120 minutes.]LOG]!><time="10:16:40.172+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appexcnlib.cpp:2014">
+<![LOG[    Process 49632 terminated with exitcode: 1603]LOG]!><time="10:16:55.873+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="10:16:55.874+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="10:16:55.875+480" date="11-12-2026" component="AppEnforce" context="" type="2" thread="2024" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (16 seconds) for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0], Revision: 1, User SID: ] ++++++]LOG]!><time="10:16:55.877+480" date="11-12-2026" component="AppEnforce" context="" type="1" thread="2024" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Desktop - Endpoint Agent" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_ea49915f-0e29-45e6-9aaa-14b4895687af, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1x, Execution Context - System]LOG]!><time="09:12:18.886+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Desktop - Endpoint Agent(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_ea49915f-0e29-45e6-9aaa-14b4895687af, revision 1) for system.]LOG]!><time="09:12:18.898+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_ea49915f-0e29-45e6-9aaa-14b4895687af, Revision: 1]]LOG]!><time="09:12:18.914+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="localapphandler.cpp:291">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: msiexec.exe /i Endpoint-Agent-x64-2.60.2.msi /quiet /norestart ACCOUNT_CONFIG="<removed>"
+	Allow user interaction: No
+	UI mode: 0
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1x
+	Working directory: ]LOG]!><time="09:12:18.916+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1x]LOG]!><time="09:12:18.921+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appcontext.cpp:189">
+<![LOG[Found executable file msiexec.exe with complete path C:\WINDOWS\system32\msiexec.exe]LOG]!><time="09:12:18.931+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="executility.cpp:188">
+<![LOG[    Prepared command line: "C:\WINDOWS\system32\msiexec.exe" /i Endpoint-Agent-x64-2.60.2.msi /quiet /norestart ACCOUNT_CONFIG="<removed>" /qn]LOG]!><time="09:12:18.932+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appcontext.cpp:338">
+<![LOG[Valid MSI Package path = C:\WINDOWS\ccmcache\1x\Endpoint-Agent-x64-2.60.2.msi]LOG]!><time="09:12:18.936+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appcontext.cpp:765">
+<![LOG[    Advertising MSI package [C:\WINDOWS\ccmcache\1x\Endpoint-Agent-x64-2.60.2.msi] to the system.]LOG]!><time="09:12:18.938+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appcommon.cpp:123">
+<![LOG[    Executing Command line: "C:\WINDOWS\system32\msiexec.exe" /i Endpoint-Agent-x64-2.60.2.msi /quiet /norestart ACCOUNT_CONFIG="<removed>" /qn with system context]LOG]!><time="09:12:19.256+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\1x]LOG]!><time="09:12:19.258+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="09:12:19.267+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 38192 to finish.  Timeout = 60 minutes.]LOG]!><time="09:12:19.270+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appexcnlib.cpp:2014">
+<![LOG[    Process 38192 terminated with exitcode: 0]LOG]!><time="09:12:31.615+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 0 in exit codes table...]LOG]!><time="09:12:31.616+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appexcnlib.cpp:510">
+<![LOG[    Matched exit code 0 to a Success entry in exit codes table.]LOG]!><time="09:12:31.616+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appexcnlib.cpp:589">
+<![LOG[    Performing detection of app deployment type Desktop - Endpoint Agent(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_ea49915f-0e29-45e6-9aaa-14b4895687af, revision 1) for system.]LOG]!><time="09:12:31.637+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appprovider.cpp:2539">
+<![LOG[+++ Discovered application [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_ea49915f-0e29-45e6-9aaa-14b4895687af, Revision: 1]]LOG]!><time="09:12:31.658+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="localapphandler.cpp:287">
+<![LOG[++++++ App enforcement completed (12 seconds) for App DT "Desktop - Endpoint Agent" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_ea49915f-0e29-45e6-9aaa-14b4895687af], Revision: 1, User SID: ] ++++++]LOG]!><time="09:12:31.660+480" date="11-16-2026" component="AppEnforce" context="" type="1" thread="53840" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1p, Execution Context - System]LOG]!><time="11:02:22.157+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, revision 1) for system.]LOG]!><time="11:02:22.172+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b, Revision: 1]]LOG]!><time="11:02:22.933+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1p
+	Working directory: ]LOG]!><time="11:02:22.937+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1p]LOG]!><time="11:02:22.942+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1p\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="11:02:22.952+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="11:02:23.024+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 22532 to finish.  Timeout = 120 minutes.]LOG]!><time="11:02:23.028+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:2014">
+<![LOG[    Process 22532 terminated with exitcode: 1603]LOG]!><time="11:02:36.603+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="11:02:36.604+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="11:02:36.605+480" date="11-19-2026" component="AppEnforce" context="" type="2" thread="51164" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (14 seconds) for App DT "Adobe Acrobat Reader 26.001.21691 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_7d84d7d7-bb99-47d3-9f96-46b963b5338b], Revision: 1, User SID: ] ++++++]LOG]!><time="11:02:36.609+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1n, Execution Context - System]LOG]!><time="11:02:37.018+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, revision 1) for system.]LOG]!><time="11:02:37.032+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0, Revision: 1]]LOG]!><time="11:02:37.740+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: PatchMyPC-ScriptRunner.exe /InstallPackage
+	Allow user interaction: No
+	UI mode: 1
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1n
+	Working directory: ]LOG]!><time="11:02:37.741+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1n]LOG]!><time="11:02:37.745+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1n\PatchMyPC-ScriptRunner.exe" /InstallPackage]LOG]!><time="11:02:37.754+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:338">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="11:02:37.813+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 26856 to finish.  Timeout = 120 minutes.]LOG]!><time="11:02:37.816+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:2014">
+<![LOG[    Process 26856 terminated with exitcode: 1603]LOG]!><time="11:02:52.513+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 1603 in exit codes table...]LOG]!><time="11:02:52.514+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:510">
+<![LOG[    Unmatched exit code (1603) is considered an execution failure.]LOG]!><time="11:02:52.514+480" date="11-19-2026" component="AppEnforce" context="" type="2" thread="51164" file="appexcnlib.cpp:596">
+<![LOG[++++++ App enforcement completed (15 seconds) for App DT "Adobe Acrobat Reader 26.001.21662 (EXE-x64 en-US)" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_8998ba8c-dfe4-4f56-bd25-5aa2e42147d0], Revision: 1, User SID: ] ++++++]LOG]!><time="11:02:52.516+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2843">
+<![LOG[+++ Starting Install enforcement for App DT "Desktop - Vendor Tool Update" ApplicationDeliveryType - ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, Revision - 1, ContentPath - C:\WINDOWS\ccmcache\1w, Execution Context - Any]LOG]!><time="11:02:52.917+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2094">
+<![LOG[    Performing detection of app deployment type Desktop - Vendor Tool Update(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, revision 1) for system.]LOG]!><time="11:02:52.930+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2539">
+<![LOG[+++ Application not discovered with script detection. [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, Revision: 1]]LOG]!><time="11:02:53.185+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="scripthandler.cpp:500">
+<![LOG[    App enforcement environment: 
+	Context: Machine
+	Command line: "VendorTool.cmd"
+	Allow user interaction: No
+	UI mode: 0
+	User token: null
+	Session Id: 4294967295
+	Content path: C:\WINDOWS\ccmcache\1w
+	Working directory: ]LOG]!><time="11:02:53.186+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:85">
+<![LOG[    Prepared working directory: C:\WINDOWS\ccmcache\1w]LOG]!><time="11:02:53.190+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:189">
+<![LOG[    Prepared command line: "C:\WINDOWS\ccmcache\1w\VendorTool.cmd"]LOG]!><time="11:02:53.194+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcontext.cpp:338">
+<![LOG[    Executing Command line: "C:\WINDOWS\ccmcache\1w\VendorTool.cmd" with system context]LOG]!><time="11:02:53.194+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:203">
+<![LOG[    Working directory C:\WINDOWS\ccmcache\1w]LOG]!><time="11:02:53.195+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:217">
+<![LOG[    Post install behavior is BasedOnExitCode]LOG]!><time="11:02:53.202+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appcommon.cpp:1054">
+<![LOG[    Waiting for process 23120 to finish.  Timeout = 120 minutes.]LOG]!><time="11:02:53.204+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:2014">
+<![LOG[    Process 23120 terminated with exitcode: 0]LOG]!><time="11:02:55.458+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:2023">
+<![LOG[    Looking for exit code 0 in exit codes table...]LOG]!><time="11:02:55.458+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:510">
+<![LOG[    Matched exit code 0 to a Success entry in exit codes table.]LOG]!><time="11:02:55.460+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appexcnlib.cpp:589">
+<![LOG[    Performing detection of app deployment type Desktop - Vendor Tool Update(ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, revision 1) for system.]LOG]!><time="11:02:55.474+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2539">
+<![LOG[+++ Discovered application [AppDT Id: ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4, Revision: 1]]LOG]!><time="11:02:55.770+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="scripthandler.cpp:491">
+<![LOG[++++++ App enforcement completed (2 seconds) for App DT "Desktop - Vendor Tool Update" [ScopeId_00000000-0000-0000-0000-000000000000/DeploymentType_9d60685f-653e-4557-aa75-63b0aa63e9c4], Revision: 1, User SID: ] ++++++]LOG]!><time="11:02:55.772+480" date="11-19-2026" component="AppEnforce" context="" type="1" thread="51164" file="appprovider.cpp:2843">

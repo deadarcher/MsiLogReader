@@ -1,0 +1,237 @@
+[2768:14D4][2026-11-16T06:36:34]i001: Burn v3.14.1.9323, Windows v10.0 (Build 26300: Service Pack 0), path: C:\ProgramData\Package Cache\{c1b99ccd-d3a8-4586-97dc-11436d54a444}\dotnet-sdk-8.0.134-win-x64.exe
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'DOTNETHOME' to value '[DOTNETHOME_X64]'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'BUNDLEMONIKER' to value 'Microsoft .NET SDK 8.0.134'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'DOTNETSDKVERSION' to value '8.0.134'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'DOTNETRUNTIMEVERSION' to value '8.0.34'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'ASPNETCOREVERSION' to value '8.0.34'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'WINFORMSANDWPFVERSION' to value '8.0.34'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'DOTNETHOMESIMILARITYCHECKOVERRIDE' to value ''
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'VERSIONMAJOR' to value '8'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'VERSIONMINOR' to value '0'
+[2768:14D4][2026-11-16T06:36:34]i000: Initializing string variable 'MINIMUMVSVERSION' to value '17.8'
+[2768:14D4][2026-11-16T06:36:34]i009: Command Line: '"-burn.clean.room=C:\ProgramData\Package Cache\{c1b99ccd-d3a8-4586-97dc-11436d54a444}\dotnet-sdk-8.0.134-win-x64.exe" -burn.filehandle.attached=540 -burn.filehandle.self=548 /uninstall'
+[2768:14D4][2026-11-16T06:36:34]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634.log'
+[2768:14D4][2026-11-16T06:36:34]i000: Setting string variable 'WixBundleManufacturer' to value 'Microsoft Corporation'
+[2768:9F04][2026-11-16T06:36:34]i000: Setting numeric variable 'WixStdBALanguageId' to value 1033
+[2768:9F04][2026-11-16T06:36:34]i000: Setting version variable 'WixBundleFileVersion' to value '8.1.3426.52904'
+[2768:14D4][2026-11-16T06:36:34]i100: Detect begin, 28 packages
+[2768:14D4][2026-11-16T06:36:34]i000: Setting numeric variable 'DotnetInstallLocationExists_x64' to value 1
+[2768:14D4][2026-11-16T06:36:34]i000: Setting numeric variable 'DotnetInstallLocationExists_x86' to value 1
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'DotnetInstallLocationExists_x64' evaluates to true.
+[2768:14D4][2026-11-16T06:36:34]i000: Setting string variable 'DOTNETHOME_X64' to value 'C:\Program Files\dotnet\'
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'NOT DotnetInstallLocationExists_x64 AND NOT NativeMachine="34404"' evaluates to false.
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'DotnetExeExists_alt_x64' evaluates to false.
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'NOT DotnetInstallLocationExists_x64 AND (NOT NativeMachine OR NativeMachine="34404")' evaluates to false.
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'DotnetExeExists_x64' evaluates to false.
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'DotnetInstallLocationExists_x86' evaluates to true.
+[2768:14D4][2026-11-16T06:36:34]i000: Setting string variable 'DOTNETHOME_X86' to value 'C:\Program Files (x86)\dotnet\'
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'NOT DotnetInstallLocationExists_x86' evaluates to false.
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'DotnetExeExists_x86' evaluates to false.
+[2768:14D4][2026-11-16T06:36:34]i000: Registry key not found. Key = 'SOFTWARE\Microsoft\.NET'
+[2768:14D4][2026-11-16T06:36:34]i000: Registry key not found. Key = 'SOFTWARE\Microsoft\.NET\8.0'
+[2768:14D4][2026-11-16T06:36:34]i000: Setting numeric variable 'RemoveSpecificPreviousVersionRegistryKeyExists' to value 0
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'RemoveSpecificPreviousVersionRegistryKeyExists=1' evaluates to false.
+[2768:14D4][2026-11-16T06:36:34]i052: Condition 'WixBundleAction >= 3' evaluates to true.
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: Finalizer, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_runtime_8.0.34_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_hostfxr_8.0.34_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_host_8.0.34_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_targeting_pack_8.0.34_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_apphost_pack_8.0.34_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_apphost_pack_8.0.34_win_x64_x86.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_apphost_pack_8.0.34_win_x64_arm64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: netstandard_targeting_pack_2.1.0_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: windowsdesktop_runtime_8.0.34_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: windowsdesktop_targeting_pack_8.0.34_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: aspnetcore_targeting_pack_8.0.34_servicing.26523.11_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: f0a38d69b91da2c9cf4812140d614380_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: ef05a2a0a7cab4628b9a106ebdf303e5_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: _28c86dc0e8d71959057ea0317b3698a3_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: _4ab27be2a7a2a677d46caf9075f2248d_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: _24bb901c0e890ef24f6b95928cd093a1_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: fbafa6938113eb2095e12092037bd5fe_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: a21d7175d91cc059cfc0380a0dec8338_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: _3c39cd638844d65f03e47ab98eee753f_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: _77b113308b4b058aa79ce9810d42b929_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: b1af96841ff7ff33d96e8ab6c666a0c2_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: _305e0d0519bca54a8aff307c61a1fcb4_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: f79d9c3f3985dad02777961260d3a620_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: _729ebc3a4ae248c9d9e33c8304329ec3_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: dotnet_sdk_internal_8.0.134_win_x64.msi, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i101: Detected package: AspNetCoreSharedFramework_x64, state: Present, cached: Complete
+[2768:14D4][2026-11-16T06:36:35]i000: Setting string variable 'RemoveUpgradeRelatedBundle' to value 'always'
+[2768:14D4][2026-11-16T06:36:35]i052: Condition 'WixBundleInstalled OR (NOT DOTNETHOME_X64 ~= DOTNETHOME_X86) OR DOTNETHOMESIMILARITYCHECKOVERRIDE' evaluates to true.
+[2768:14D4][2026-11-16T06:36:35]i052: Condition 'WixBundleInstalled OR (NOT DOTNETHOME_ARM64 ~= DOTNETHOME_X86) OR DOTNETHOMESIMILARITYCHECKOVERRIDE' evaluates to true.
+[2768:14D4][2026-11-16T06:36:35]i052: Condition 'WixBundleInstalled OR (NOT DOTNETHOME_ARM64 ~= DOTNETHOME_X64) OR (NOT NativeMachine="43620") OR DOTNETHOMESIMILARITYCHECKOVERRIDE' evaluates to true.
+[2768:14D4][2026-11-16T06:36:35]i199: Detect complete, result: 0x0
+[2768:14D4][2026-11-16T06:36:36]i200: Plan begin, 28 packages, action: Uninstall
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: AspNetCoreSharedFramework_x64, found dependents: 2
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {038c32c9-172c-4688-b97d-158f146e7aad}, name: Microsoft ASP.NET Core 8.0.34 - Shared Framework (x64)
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]i000: Setting string variable 'WixBundleRollbackLog_dotnet_sdk_internal_8.0.134_win_x64.msi' to value 'C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_000_dotnet_sdk_internal_8.0.134_win_x64.msi_rollback.log'
+[2768:14D4][2026-11-16T06:36:36]i000: Setting string variable 'WixBundleLog_dotnet_sdk_internal_8.0.134_win_x64.msi' to value 'C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_000_dotnet_sdk_internal_8.0.134_win_x64.msi.log'
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: _729ebc3a4ae248c9d9e33c8304329ec3_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: f79d9c3f3985dad02777961260d3a620_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: _305e0d0519bca54a8aff307c61a1fcb4_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: b1af96841ff7ff33d96e8ab6c666a0c2_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: _77b113308b4b058aa79ce9810d42b929_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: _3c39cd638844d65f03e47ab98eee753f_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: a21d7175d91cc059cfc0380a0dec8338_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: fbafa6938113eb2095e12092037bd5fe_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: _24bb901c0e890ef24f6b95928cd093a1_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: _4ab27be2a7a2a677d46caf9075f2248d_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: _28c86dc0e8d71959057ea0317b3698a3_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: ef05a2a0a7cab4628b9a106ebdf303e5_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: f0a38d69b91da2c9cf4812140d614380_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]i000: Setting string variable 'WixBundleRollbackLog_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi' to value 'C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_001_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi_rollback.log'
+[2768:14D4][2026-11-16T06:36:36]i000: Setting string variable 'WixBundleLog_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi' to value 'C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_001_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi.log'
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: aspnetcore_targeting_pack_8.0.34_servicing.26523.11_win_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: windowsdesktop_targeting_pack_8.0.34_win_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: windowsdesktop_runtime_8.0.34_win_x64.msi, found dependents: 2
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {de6ce2b1-81f5-406c-a0ca-534ccdf2ad7e}, name: Microsoft Windows Desktop Runtime - 8.0.34 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: netstandard_targeting_pack_2.1.0_win_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: dotnet_apphost_pack_8.0.34_win_x64_arm64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: dotnet_apphost_pack_8.0.34_win_x64_x86.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: dotnet_apphost_pack_8.0.34_win_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: dotnet_targeting_pack_8.0.34_win_x64.msi, found dependents: 1
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: dotnet_host_8.0.34_win_x64.msi, found dependents: 2
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {de6ce2b1-81f5-406c-a0ca-534ccdf2ad7e}, name: Microsoft Windows Desktop Runtime - 8.0.34 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: dotnet_hostfxr_8.0.34_win_x64.msi, found dependents: 2
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {de6ce2b1-81f5-406c-a0ca-534ccdf2ad7e}, name: Microsoft Windows Desktop Runtime - 8.0.34 (x64)
+[2768:14D4][2026-11-16T06:36:36]w327: Will not uninstall package: dotnet_runtime_8.0.34_win_x64.msi, found dependents: 2
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {d76560af-3660-42af-8ceb-47fc58a70915}, name: Microsoft .NET SDK 8.0.428 (x64)
+[2768:14D4][2026-11-16T06:36:36]w328: Found dependent: {de6ce2b1-81f5-406c-a0ca-534ccdf2ad7e}, name: Microsoft Windows Desktop Runtime - 8.0.34 (x64)
+[2768:14D4][2026-11-16T06:36:36]w321: Skipping dependency registration on package with no dependency providers: Finalizer
+[2768:14D4][2026-11-16T06:36:36]i000: Setting string variable 'WixBundleLog_Finalizer' to value 'C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_002_Finalizer.log'
+[2768:14D4][2026-11-16T06:36:36]i000: Setting string variable 'WixBundleRollbackLog_Finalizer' to value 'C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_002_Finalizer_rollback.log'
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: AspNetCoreSharedFramework_x64, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_sdk_internal_8.0.134_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: Uninstall, rollback: Install, cache: No, uncache: Yes, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: _729ebc3a4ae248c9d9e33c8304329ec3_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: f79d9c3f3985dad02777961260d3a620_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: _305e0d0519bca54a8aff307c61a1fcb4_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: b1af96841ff7ff33d96e8ab6c666a0c2_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: _77b113308b4b058aa79ce9810d42b929_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: _3c39cd638844d65f03e47ab98eee753f_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: a21d7175d91cc059cfc0380a0dec8338_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: fbafa6938113eb2095e12092037bd5fe_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: _24bb901c0e890ef24f6b95928cd093a1_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: _4ab27be2a7a2a677d46caf9075f2248d_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: _28c86dc0e8d71959057ea0317b3698a3_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: ef05a2a0a7cab4628b9a106ebdf303e5_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: f0a38d69b91da2c9cf4812140d614380_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: Uninstall, rollback: Install, cache: No, uncache: Yes, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: aspnetcore_targeting_pack_8.0.34_servicing.26523.11_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: windowsdesktop_targeting_pack_8.0.34_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: windowsdesktop_runtime_8.0.34_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: netstandard_targeting_pack_2.1.0_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_apphost_pack_8.0.34_win_x64_arm64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_apphost_pack_8.0.34_win_x64_x86.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_apphost_pack_8.0.34_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_targeting_pack_8.0.34_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_host_8.0.34_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_hostfxr_8.0.34_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: dotnet_runtime_8.0.34_win_x64.msi, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[2768:14D4][2026-11-16T06:36:36]i201: Planned package: Finalizer, state: Present, default requested: Absent, ba requested: Absent, execute: Uninstall, rollback: Install, cache: No, uncache: Yes, dependency: None
+[2768:14D4][2026-11-16T06:36:36]i299: Plan complete, result: 0x0
+[2768:14D4][2026-11-16T06:36:36]i300: Apply begin
+[2768:14D4][2026-11-16T06:36:36]i010: Launching elevated engine process.
+[2768:14D4][2026-11-16T06:36:36]i011: Launched elevated engine process.
+[2768:14D4][2026-11-16T06:36:37]i012: Connected to elevated engine.
+[1064:6EBC][2026-11-16T06:36:37]i358: Pausing automatic updates.
+[1064:6EBC][2026-11-16T06:36:37]i359: Paused automatic updates.
+[1064:6EBC][2026-11-16T06:36:37]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{c1b99ccd-d3a8-4586-97dc-11436d54a444}, resume: Active, restart initiated: No, disable resume: No
+[1064:6EBC][2026-11-16T06:36:37]i326: Removed dependency: {c1b99ccd-d3a8-4586-97dc-11436d54a444} on package provider: Microsoft.AspNetCore.SharedFramework_x64_en_US.UTF-8,v8.0.34-servicing.26523.11, package AspNetCoreSharedFramework_x64
+[1064:6EBC][2026-11-16T06:36:37]i326: Removed dependency: {c1b99ccd-d3a8-4586-97dc-11436d54a444} on package provider: Dotnet_CLI_8.1.3426.52904_x64, package dotnet_sdk_internal_8.0.134_win_x64.msi
+[1064:6EBC][2026-11-16T06:36:37]i301: Applying execute package: dotnet_sdk_internal_8.0.134_win_x64.msi, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" DOTNETHOME="C:\Program Files\dotnet\" EXEFULLPATH="C:\WINDOWS\SoftwareDistribution\Download\Install\dotnet-sdk-8.0.134-win-x64.exe" ALLOWMSIINSTALL="True"'
+[1064:AD5C][2026-11-16T06:36:38]i304: Verified existing payload: Finalizer at path: C:\ProgramData\Package Cache\FB15D2F7F67EA94D53348EEFD67FADDDB46FA0EC\finalizer.exe.
+[1064:6EBC][2026-11-16T06:36:40]e000: Error 0x80070652: Failed to uninstall MSI package.
+[1064:6EBC][2026-11-16T06:36:40]e000: Error 0x80070652: Failed to execute MSI package.
+[2768:14D4][2026-11-16T06:36:40]e000: Error 0x80070652: Failed to configure per-machine MSI package.
+[2768:14D4][2026-11-16T06:36:40]w348: Application requested retry of package: dotnet_sdk_internal_8.0.134_win_x64.msi, encountered error: 0x80070652. Retrying...
+[1064:6EBC][2026-11-16T06:36:43]i301: Applying execute package: dotnet_sdk_internal_8.0.134_win_x64.msi, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" DOTNETHOME="C:\Program Files\dotnet\" EXEFULLPATH="C:\WINDOWS\SoftwareDistribution\Download\Install\dotnet-sdk-8.0.134-win-x64.exe" ALLOWMSIINSTALL="True"'
+[1064:6EBC][2026-11-16T06:36:46]e000: Error 0x80070652: Failed to uninstall MSI package.
+[1064:6EBC][2026-11-16T06:36:46]e000: Error 0x80070652: Failed to execute MSI package.
+[2768:14D4][2026-11-16T06:36:46]e000: Error 0x80070652: Failed to configure per-machine MSI package.
+[2768:14D4][2026-11-16T06:36:46]w348: Application requested retry of package: dotnet_sdk_internal_8.0.134_win_x64.msi, encountered error: 0x80070652. Retrying...
+[1064:6EBC][2026-11-16T06:36:49]i301: Applying execute package: dotnet_sdk_internal_8.0.134_win_x64.msi, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" DOTNETHOME="C:\Program Files\dotnet\" EXEFULLPATH="C:\WINDOWS\SoftwareDistribution\Download\Install\dotnet-sdk-8.0.134-win-x64.exe" ALLOWMSIINSTALL="True"'
+[1064:6EBC][2026-11-16T06:36:52]e000: Error 0x80070652: Failed to uninstall MSI package.
+[1064:6EBC][2026-11-16T06:36:52]e000: Error 0x80070652: Failed to execute MSI package.
+[2768:14D4][2026-11-16T06:36:52]e000: Error 0x80070652: Failed to configure per-machine MSI package.
+[2768:14D4][2026-11-16T06:36:52]w348: Application requested retry of package: dotnet_sdk_internal_8.0.134_win_x64.msi, encountered error: 0x80070652. Retrying...
+[1064:6EBC][2026-11-16T06:36:55]i301: Applying execute package: dotnet_sdk_internal_8.0.134_win_x64.msi, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" DOTNETHOME="C:\Program Files\dotnet\" EXEFULLPATH="C:\WINDOWS\SoftwareDistribution\Download\Install\dotnet-sdk-8.0.134-win-x64.exe" ALLOWMSIINSTALL="True"'
+[1064:6EBC][2026-11-16T06:36:58]e000: Error 0x80070652: Failed to uninstall MSI package.
+[1064:6EBC][2026-11-16T06:36:58]e000: Error 0x80070652: Failed to execute MSI package.
+[2768:14D4][2026-11-16T06:36:58]e000: Error 0x80070652: Failed to configure per-machine MSI package.
+[2768:14D4][2026-11-16T06:36:58]i319: Applied execute package: dotnet_sdk_internal_8.0.134_win_x64.msi, result: 0x80070652, restart: None
+[2768:14D4][2026-11-16T06:36:58]e000: Error 0x80070652: Failed to execute MSI package.
+[1064:6EBC][2026-11-16T06:36:58]i318: Skipped rollback of package: dotnet_sdk_internal_8.0.134_win_x64.msi, action: Install, already: Present
+[2768:14D4][2026-11-16T06:36:58]i319: Applied rollback package: dotnet_sdk_internal_8.0.134_win_x64.msi, result: 0x0, restart: None
+[1064:6EBC][2026-11-16T06:36:58]i325: Registering dependency: {c1b99ccd-d3a8-4586-97dc-11436d54a444} on package provider: Dotnet_CLI_8.1.3426.52904_x64, package: dotnet_sdk_internal_8.0.134_win_x64.msi
+[1064:6EBC][2026-11-16T06:36:58]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{c1b99ccd-d3a8-4586-97dc-11436d54a444}, resume: ARP, restart: None, disable resume: No
+[1064:6EBC][2026-11-16T06:36:58]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{c1b99ccd-d3a8-4586-97dc-11436d54a444}, resume: ARP, restart initiated: No, disable resume: No
+[2768:14D4][2026-11-16T06:36:58]i399: Apply complete, result: 0x80070652, restart: None, ba requested restart:  No
+[2768:14D4][2026-11-16T06:37:15]i500: Shutting down, exit code: 0x652
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: ASPNETCOREVERSION = 8.0.34
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: BUNDLEMONIKER = Microsoft .NET SDK 8.0.134
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DOTNETHOME = C:\Program Files\dotnet\
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DOTNETHOME_X64 = C:\Program Files\dotnet\
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DOTNETHOME_X86 = C:\Program Files (x86)\dotnet\
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DOTNETHOMESIMILARITYCHECKOVERRIDE = 
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DotnetInstallLocationExists_x64 = 1
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DotnetInstallLocationExists_x86 = 1
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DOTNETRUNTIMEVERSION = 8.0.34
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: DOTNETSDKVERSION = 8.0.134
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: MINIMUMVSVERSION = 17.8
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: NativeMachine = 34404
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: RemoveSpecificPreviousVersionRegistryKeyExists = 0
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: RemoveUpgradeRelatedBundle = always
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: VERSIONMAJOR = 8
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: VERSIONMINOR = 0
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WINFORMSANDWPFVERSION = 8.0.34
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleAction = 3
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleElevated = 1
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleFileVersion = 8.1.3426.52904
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleInstalled = 1
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleLog = C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634.log
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleLog_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi = C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_001_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi.log
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleLog_dotnet_sdk_internal_8.0.134_win_x64.msi = C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_000_dotnet_sdk_internal_8.0.134_win_x64.msi.log
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleLog_Finalizer = C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_002_Finalizer.log
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleManufacturer = Microsoft Corporation
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleName = Microsoft .NET SDK 8.0.134 (x64)
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleOriginalSource = C:\WINDOWS\SoftwareDistribution\Download\Install\dotnet-sdk-8.0.134-win-x64.exe
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleOriginalSourceFolder = C:\WINDOWS\SoftwareDistribution\Download\Install\
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleProviderKey = {c1b99ccd-d3a8-4586-97dc-11436d54a444}
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleRollbackLog_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi = C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_001_dotnet_80templates_8.0.134_servicing.26529.4_win_x64.msi_rollback.log
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleRollbackLog_dotnet_sdk_internal_8.0.134_win_x64.msi = C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_000_dotnet_sdk_internal_8.0.134_win_x64.msi_rollback.log
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleRollbackLog_Finalizer = C:\Users\user\AppData\Local\Temp\Microsoft_.NET_SDK_8.0.134_(x64)_20261116063634_002_Finalizer_rollback.log
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleSourceProcessFolder = C:\ProgramData\Package Cache\{c1b99ccd-d3a8-4586-97dc-11436d54a444}\
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleSourceProcessPath = C:\ProgramData\Package Cache\{c1b99ccd-d3a8-4586-97dc-11436d54a444}\dotnet-sdk-8.0.134-win-x64.exe
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleTag = 
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleUILevel = 4
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixBundleVersion = 8.1.3426.52904
+[2768:14D4][2026-11-16T06:37:15]i410: Variable: WixStdBALanguageId = 1033
+[2768:14D4][2026-11-16T06:37:15]i007: Exit code: 0x652, restarting: No

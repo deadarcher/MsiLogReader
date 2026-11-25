@@ -1,0 +1,972 @@
+=== Verbose logging started: 11/23/2026  21:04:37  Build type: SHIP UNICODE 5.00.10011.00  Calling process: C:\Windows\system32\msiexec.exe ===
+MSI (c) (90:10) [21:04:37:185]: Resetting cached policy values
+MSI (c) (90:10) [21:04:37:185]: Machine policy value 'Debug' is 0
+MSI (c) (90:10) [21:04:37:185]: ******* RunEngine:
+           ******* Product: C:\rfflog\rfflog-ok-2.0.0.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (c) (90:10) [21:04:37:189]: Client-side and UI is none or basic: Running entire install on the server.
+MSI (c) (90:10) [21:04:37:189]: Grabbed execution mutex.
+MSI (c) (90:10) [21:04:37:219]: Cloaking enabled.
+MSI (c) (90:10) [21:04:37:219]: Attempting to enable all disabled privileges before calling Install on Server
+MSI (c) (90:10) [21:04:37:234]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (DC:A4) [21:04:37:250]: Running installation inside multi-package transaction C:\rfflog\rfflog-ok-2.0.0.msi
+MSI (s) (DC:A4) [21:04:37:250]: Grabbed execution mutex.
+MSI (s) (DC:F0) [21:04:37:256]: Resetting cached policy values
+MSI (s) (DC:F0) [21:04:37:256]: Machine policy value 'Debug' is 0
+MSI (s) (DC:F0) [21:04:37:256]: ******* RunEngine:
+           ******* Product: C:\rfflog\rfflog-ok-2.0.0.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (s) (DC:F0) [21:04:37:258]: Machine policy value 'DisableUserInstalls' is 0
+MSI (s) (DC:F0) [21:04:37:267]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:F0) [21:04:37:269]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (DC:F0) [21:04:37:275]: File will have security applied from OpCode.
+MSI (s) (DC:F0) [21:04:37:281]: SOFTWARE RESTRICTION POLICY: Verifying package --> 'C:\rfflog\rfflog-ok-2.0.0.msi' against software restriction policy
+MSI (s) (DC:F0) [21:04:37:281]: Note: 1: 2262 2: DigitalSignature 3: -2147287038 
+MSI (s) (DC:F0) [21:04:37:281]: SOFTWARE RESTRICTION POLICY: C:\rfflog\rfflog-ok-2.0.0.msi is not digitally signed
+MSI (s) (DC:F0) [21:04:37:283]: SOFTWARE RESTRICTION POLICY: C:\rfflog\rfflog-ok-2.0.0.msi is permitted to run at the 'unrestricted' authorization level.
+MSI (s) (DC:F0) [21:04:37:283]: MSCOREE not loaded loading copy from system32
+MSI (s) (DC:F0) [21:04:37:296]: End dialog not enabled
+MSI (s) (DC:F0) [21:04:37:296]: Original package ==> C:\rfflog\rfflog-ok-2.0.0.msi
+MSI (s) (DC:F0) [21:04:37:296]: Package we're running from ==> C:\Windows\Installer\fc7df.msi
+MSI (s) (DC:F0) [21:04:37:299]: APPCOMPAT: Compatibility mode property overrides found.
+MSI (s) (DC:F0) [21:04:37:303]: APPCOMPAT: looking for appcompat database entry with ProductCode '{67A4A902-925A-493C-ADFD-EF3DB5353044}'.
+MSI (s) (DC:F0) [21:04:37:305]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:F0) [21:04:37:320]: Machine policy value 'TransformsSecure' is 0
+MSI (s) (DC:F0) [21:04:37:320]: User policy value 'TransformsAtSource' is 0
+MSI (s) (DC:F0) [21:04:37:320]: Machine policy value 'DisablePatch' is 0
+MSI (s) (DC:F0) [21:04:37:320]: Machine policy value 'AllowLockdownPatch' is 0
+MSI (s) (DC:F0) [21:04:37:320]: Machine policy value 'DisableLUAPatching' is 0
+MSI (s) (DC:F0) [21:04:37:320]: Machine policy value 'DisableFlyWeightPatching' is 0
+MSI (s) (DC:F0) [21:04:37:325]: APPCOMPAT: looking for appcompat database entry with ProductCode '{67A4A902-925A-493C-ADFD-EF3DB5353044}'.
+MSI (s) (DC:F0) [21:04:37:327]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:F0) [21:04:37:329]: Transforms are not secure.
+MSI (s) (DC:F0) [21:04:37:329]: Note: 1: 2205 2:  3: Control 
+MSI (s) (DC:F0) [21:04:37:329]: PROPERTY CHANGE: Adding MsiLogFileLocation property. Its value is 'C:\rfflog\logs\02-ok-majorupgrade.log'.
+MSI (s) (DC:F0) [21:04:37:329]: Command Line: CURRENTDIRECTORY=C:\Users\Administrator\Documents CLIENTUILEVEL=3 CLIENTPROCESSID=6800 
+MSI (s) (DC:F0) [21:04:37:329]: PROPERTY CHANGE: Adding PackageCode property. Its value is '{38DA064B-44CC-45C3-8CE9-439B2B994F54}'.
+MSI (s) (DC:F0) [21:04:37:329]: Product Code passed to Engine.Initialize:           ''
+MSI (s) (DC:F0) [21:04:37:329]: Product Code from property table before transforms: '{67A4A902-925A-493C-ADFD-EF3DB5353044}'
+MSI (s) (DC:F0) [21:04:37:329]: Product Code from property table after transforms:  '{67A4A902-925A-493C-ADFD-EF3DB5353044}'
+MSI (s) (DC:F0) [21:04:37:329]: Product not registered: beginning first-time install
+MSI (s) (DC:F0) [21:04:37:329]: Product {67A4A902-925A-493C-ADFD-EF3DB5353044} is not managed.
+MSI (s) (DC:F0) [21:04:37:329]: MSI_LUA: Credential prompt not required, user is an admin
+MSI (s) (DC:F0) [21:04:37:329]: PROPERTY CHANGE: Adding ProductState property. Its value is '-1'.
+MSI (s) (DC:F0) [21:04:37:329]: Entering CMsiConfigurationManager::SetLastUsedSource.
+MSI (s) (DC:F0) [21:04:37:329]: User policy value 'SearchOrder' is 'nmu'
+MSI (s) (DC:F0) [21:04:37:329]: Adding new sources is allowed.
+MSI (s) (DC:F0) [21:04:37:329]: PROPERTY CHANGE: Adding PackagecodeChanging property. Its value is '1'.
+MSI (s) (DC:F0) [21:04:37:329]: Package name extracted from package path: 'rfflog-ok-2.0.0.msi'
+MSI (s) (DC:F0) [21:04:37:329]: Package to be registered: 'rfflog-ok-2.0.0.msi'
+MSI (s) (DC:F0) [21:04:37:329]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:37:335]: Note: 1: 2262 2: AdminProperties 3: -2147287038 
+MSI (s) (DC:F0) [21:04:37:335]: Machine policy value 'DisableMsi' is 0
+MSI (s) (DC:F0) [21:04:37:335]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:F0) [21:04:37:335]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:F0) [21:04:37:335]: Product installation will be elevated because user is admin and product is being installed per-machine.
+MSI (s) (DC:F0) [21:04:37:335]: Running product '{67A4A902-925A-493C-ADFD-EF3DB5353044}' with elevated privileges: Product is assigned.
+MSI (s) (DC:F0) [21:04:37:335]: PROPERTY CHANGE: Adding CURRENTDIRECTORY property. Its value is 'C:\Users\Administrator\Documents'.
+MSI (s) (DC:F0) [21:04:37:335]: PROPERTY CHANGE: Adding CLIENTUILEVEL property. Its value is '3'.
+MSI (s) (DC:F0) [21:04:37:335]: PROPERTY CHANGE: Adding CLIENTPROCESSID property. Its value is '6800'.
+MSI (s) (DC:F0) [21:04:37:335]: Machine policy value 'DisableAutomaticApplicationShutdown' is 1
+MSI (s) (DC:F0) [21:04:37:335]: RESTART MANAGER: Disabled by DisableAutomaticApplicationShutdown system policy; Windows Installer will use the built-in FilesInUse functionality.
+MSI (s) (DC:F0) [21:04:37:335]: TRANSFORMS property is now: 
+MSI (s) (DC:F0) [21:04:37:335]: PROPERTY CHANGE: Adding VersionDatabase property. Its value is '500'.
+MSI (s) (DC:F0) [21:04:37:337]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming
+MSI (s) (DC:F0) [21:04:37:343]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Favorites
+MSI (s) (DC:F0) [21:04:37:345]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+MSI (s) (DC:F0) [21:04:37:351]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Documents
+MSI (s) (DC:F0) [21:04:37:355]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+MSI (s) (DC:F0) [21:04:37:357]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent
+MSI (s) (DC:F0) [21:04:37:359]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\SendTo
+MSI (s) (DC:F0) [21:04:37:365]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates
+MSI (s) (DC:F0) [21:04:37:365]: SHELL32::SHGetFolderPath returned: C:\ProgramData
+MSI (s) (DC:F0) [21:04:37:369]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Local
+MSI (s) (DC:F0) [21:04:37:371]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Pictures
+MSI (s) (DC:F0) [21:04:37:377]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (DC:F0) [21:04:37:381]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (DC:F0) [21:04:37:383]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+MSI (s) (DC:F0) [21:04:37:389]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu
+MSI (s) (DC:F0) [21:04:37:391]: SHELL32::SHGetFolderPath returned: C:\Users\Public\Desktop
+MSI (s) (DC:F0) [21:04:37:395]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (DC:F0) [21:04:37:399]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (DC:F0) [21:04:37:401]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+MSI (s) (DC:F0) [21:04:37:403]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu
+MSI (s) (DC:F0) [21:04:37:411]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Desktop
+MSI (s) (DC:F0) [21:04:37:415]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Templates
+MSI (s) (DC:F0) [21:04:37:415]: SHELL32::SHGetFolderPath returned: C:\Windows\Fonts
+MSI (s) (DC:F0) [21:04:37:417]: Note: 1: 2898 2: MS Sans Serif 3: MS Sans Serif 4: 0 5: 16 
+MSI (s) (DC:F0) [21:04:37:439]: MSI_LUA: Setting MsiRunningElevated property to 1 because the install is already running elevated.
+MSI (s) (DC:F0) [21:04:37:439]: PROPERTY CHANGE: Adding MsiRunningElevated property. Its value is '1'.
+MSI (s) (DC:F0) [21:04:37:439]: PROPERTY CHANGE: Adding Privileged property. Its value is '1'.
+MSI (s) (DC:F0) [21:04:37:440]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (DC:F0) [21:04:37:440]: PROPERTY CHANGE: Adding USERNAME property. Its value is 'Windows User'.
+MSI (s) (DC:F0) [21:04:37:440]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (DC:F0) [21:04:37:440]: PROPERTY CHANGE: Adding COMPANYNAME property. Its value is 'X'.
+MSI (s) (DC:F0) [21:04:37:440]: PROPERTY CHANGE: Adding DATABASE property. Its value is 'C:\Windows\Installer\fc7df.msi'.
+MSI (s) (DC:F0) [21:04:37:440]: PROPERTY CHANGE: Adding OriginalDatabase property. Its value is 'C:\rfflog\rfflog-ok-2.0.0.msi'.
+MSI (s) (DC:F0) [21:04:37:440]: Machine policy value 'MsiDisableEmbeddedUI' is 0
+MSI (s) (DC:F0) [21:04:37:440]: EEUI - Disabling MsiEmbeddedUI for service because it's not a quiet/basic install
+MSI (s) (DC:F0) [21:04:37:440]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:F0) [21:04:37:440]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:F0) [21:04:37:440]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:F0) [21:04:37:440]: PROPERTY CHANGE: Adding UILevel property. Its value is '2'.
+=== Logging started: 11/23/2026  21:04:37 ===
+MSI (s) (DC:F0) [21:04:37:442]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:F0) [21:04:37:442]: APPCOMPAT: [DetectVersionLaunchCondition] Launch condition already passes.
+MSI (s) (DC:F0) [21:04:37:480]: PROPERTY CHANGE: Adding ACTION property. Its value is 'INSTALL'.
+MSI (s) (DC:F0) [21:04:37:480]: Doing action: INSTALL
+MSI (s) (DC:F0) [21:04:37:480]: Note: 1: 2205 2:  3: ActionText 
+Action start 21:04:37: INSTALL.
+MSI (s) (DC:F0) [21:04:37:483]: Running ExecuteSequence
+MSI (s) (DC:F0) [21:04:37:483]: Doing action: FindRelatedProducts
+MSI (s) (DC:F0) [21:04:37:483]: Note: 1: 2205 2:  3: ActionText 
+Action start 21:04:37: FindRelatedProducts.
+MSI (s) (DC:F0) [21:04:37:487]: PROPERTY CHANGE: Adding WIX_UPGRADE_DETECTED property. Its value is '{61BEC5C3-7562-47F5-A621-E5950D626985}'.
+MSI (s) (DC:F0) [21:04:37:487]: PROPERTY CHANGE: Adding MIGRATE property. Its value is '{61BEC5C3-7562-47F5-A621-E5950D626985}'.
+MSI (s) (DC:F0) [21:04:37:487]: Doing action: LaunchConditions
+MSI (s) (DC:F0) [21:04:37:487]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: FindRelatedProducts. Return value 1.
+Action start 21:04:37: LaunchConditions.
+MSI (s) (DC:F0) [21:04:37:490]: Doing action: ValidateProductID
+MSI (s) (DC:F0) [21:04:37:490]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: LaunchConditions. Return value 1.
+Action start 21:04:37: ValidateProductID.
+MSI (s) (DC:F0) [21:04:37:492]: Doing action: CostInitialize
+MSI (s) (DC:F0) [21:04:37:492]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: ValidateProductID. Return value 1.
+MSI (s) (DC:F0) [21:04:37:494]: Machine policy value 'MaxPatchCacheSize' is 10
+MSI (s) (DC:F0) [21:04:37:494]: PROPERTY CHANGE: Adding ROOTDRIVE property. Its value is 'C:\'.
+MSI (s) (DC:F0) [21:04:37:494]: PROPERTY CHANGE: Adding CostingComplete property. Its value is '0'.
+MSI (s) (DC:F0) [21:04:37:496]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (DC:F0) [21:04:37:496]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:F0) [21:04:37:496]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (DC:F0) [21:04:37:496]: Note: 1: 2205 2:  3: __MsiPatchFileList 
+MSI (s) (DC:F0) [21:04:37:496]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:F0) [21:04:37:496]: Note: 1: 2228 2:  3: PatchPackage 4: SELECT `DiskId`, `PatchId`, `LastSequence` FROM `Media`, `PatchPackage` WHERE `Media`.`DiskId`=`PatchPackage`.`Media_` ORDER BY `DiskId`  
+MSI (s) (DC:F0) [21:04:37:496]: Note: 1: 2205 2:  3: Patch 
+Action start 21:04:37: CostInitialize.
+MSI (s) (DC:F0) [21:04:37:498]: Doing action: FileCost
+MSI (s) (DC:F0) [21:04:37:498]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: CostInitialize. Return value 1.
+MSI (s) (DC:F0) [21:04:37:500]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (DC:F0) [21:04:37:500]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:F0) [21:04:37:500]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:F0) [21:04:37:500]: Note: 1: 2205 2:  3: Class 
+MSI (s) (DC:F0) [21:04:37:500]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (DC:F0) [21:04:37:500]: Note: 1: 2205 2:  3: TypeLib 
+Action start 21:04:37: FileCost.
+MSI (s) (DC:F0) [21:04:37:500]: Doing action: CostFinalize
+MSI (s) (DC:F0) [21:04:37:500]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: FileCost. Return value 1.
+MSI (s) (DC:F0) [21:04:37:503]: PROPERTY CHANGE: Adding OutOfDiskSpace property. Its value is '0'.
+MSI (s) (DC:F0) [21:04:37:503]: PROPERTY CHANGE: Adding OutOfNoRbDiskSpace property. Its value is '0'.
+MSI (s) (DC:F0) [21:04:37:503]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceAvailable property. Its value is '0'.
+MSI (s) (DC:F0) [21:04:37:503]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRequired property. Its value is '0'.
+MSI (s) (DC:F0) [21:04:37:503]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRemaining property. Its value is '0'.
+MSI (s) (DC:F0) [21:04:37:503]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (DC:F0) [21:04:37:503]: Note: 1: 2205 2:  3: Condition 
+MSI (s) (DC:F0) [21:04:37:504]: PROPERTY CHANGE: Adding TARGETDIR property. Its value is 'C:\'.
+MSI (s) (DC:F0) [21:04:37:504]: PROPERTY CHANGE: Adding INSTALLFOLDER property. Its value is 'C:\Program Files\RFFLogFixture-ok\'.
+MSI (s) (DC:F0) [21:04:37:504]: Target path resolution complete. Dumping Directory table...
+MSI (s) (DC:F0) [21:04:37:504]: Note: target paths subject to change (via custom actions or browsing)
+MSI (s) (DC:F0) [21:04:37:504]: Dir (target): Key: TARGETDIR	, Object: C:\
+MSI (s) (DC:F0) [21:04:37:504]: Dir (target): Key: ProgramFiles64Folder	, Object: C:\Program Files\
+MSI (s) (DC:F0) [21:04:37:504]: Dir (target): Key: INSTALLFOLDER	, Object: C:\Program Files\RFFLogFixture-ok\
+MSI (s) (DC:F0) [21:04:37:504]: PROPERTY CHANGE: Adding INSTALLLEVEL property. Its value is '1'.
+MSI (s) (DC:F0) [21:04:37:504]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (DC:F0) [21:04:37:504]: Note: 1: 2228 2:  3: MsiAssembly 4:  SELECT `MsiAssembly`.`Attributes`, `MsiAssembly`.`File_Application`, `MsiAssembly`.`File_Manifest`,  `Component`.`KeyPath` FROM `MsiAssembly`, `Component` WHERE  `MsiAssembly`.`Component_` = `Component`.`Component` AND `MsiAssembly`.`Component_` = ? 
+Action start 21:04:37: CostFinalize.
+MSI (s) (DC:F0) [21:04:37:515]: Doing action: MigrateFeatureStates
+MSI (s) (DC:F0) [21:04:37:515]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: CostFinalize. Return value 1.
+MSI (s) (DC:F0) [21:04:37:517]: Migrating feature settings from product(s) '{61BEC5C3-7562-47F5-A621-E5950D626985}'
+MSI (s) (DC:F0) [21:04:37:517]: MigrateFeatureStates: based on existing product, setting feature 'Main' to 'Local' state.
+Action start 21:04:37: MigrateFeatureStates.
+MSI (s) (DC:F0) [21:04:37:522]: Doing action: InstallValidate
+MSI (s) (DC:F0) [21:04:37:522]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: MigrateFeatureStates. Return value 1.
+MSI (s) (DC:F0) [21:04:37:524]: Note: 1: 2205 2:  3: Dialog 
+MSI (s) (DC:F0) [21:04:37:526]: Feature: Main; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (DC:F0) [21:04:37:526]: Component: fil0Kfx1ErIaNg7jxuAM9JhTlP6aaM; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: Font 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: Class 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: TypeLib 
+Action start 21:04:37: InstallValidate.
+MSI (s) (DC:F0) [21:04:37:526]: Note: 1: 2205 2:  3: _RemoveFilePath 
+MSI (s) (DC:F0) [21:04:37:532]: PROPERTY CHANGE: Modifying CostingComplete property. Its current value is '0'. Its new value: '1'.
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: Font 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: Class 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2205 2:  3: TypeLib 
+MSI (s) (DC:F0) [21:04:37:534]: Note: 1: 2727 2:  
+MSI (s) (DC:F0) [21:04:37:536]: Note: 1: 2727 2:  
+MSI (s) (DC:F0) [21:04:37:540]: Doing action: RemoveExistingProducts
+MSI (s) (DC:F0) [21:04:37:540]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: InstallValidate. Return value 1.
+MSI (s) (DC:F0) [21:04:37:542]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:37:542]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 22 
+Action start 21:04:37: RemoveExistingProducts.
+MSI (s) (DC:F0) [21:04:37:542]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:37:542]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 23 
+MSI (s) (DC:D4) [21:04:37:548]: Resetting cached policy values
+MSI (s) (DC:D4) [21:04:37:550]: Machine policy value 'Debug' is 0
+MSI (s) (DC:D4) [21:04:37:550]: ******* RunEngine:
+           ******* Product: {61BEC5C3-7562-47F5-A621-E5950D626985}
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (s) (DC:D4) [21:04:37:552]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:D4) [21:04:37:554]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (DC:D4) [21:04:37:554]: End dialog not enabled
+MSI (s) (DC:D4) [21:04:37:556]: Original package ==> C:\Windows\Installer\fc7de.msi
+MSI (s) (DC:D4) [21:04:37:556]: Package we're running from ==> C:\Windows\Installer\fc7de.msi
+MSI (s) (DC:D4) [21:04:37:556]: APPCOMPAT: Uninstall Flags override found.
+MSI (s) (DC:D4) [21:04:37:556]: APPCOMPAT: Uninstall VersionNT override found.
+MSI (s) (DC:D4) [21:04:37:556]: APPCOMPAT: Uninstall ServicePackLevel override found.
+MSI (s) (DC:D4) [21:04:37:558]: APPCOMPAT: looking for appcompat database entry with ProductCode '{61BEC5C3-7562-47F5-A621-E5950D626985}'.
+MSI (s) (DC:D4) [21:04:37:558]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:D4) [21:04:37:568]: Machine policy value 'DisablePatch' is 0
+MSI (s) (DC:D4) [21:04:37:568]: Machine policy value 'AllowLockdownPatch' is 0
+MSI (s) (DC:D4) [21:04:37:568]: Machine policy value 'DisableLUAPatching' is 0
+MSI (s) (DC:D4) [21:04:37:568]: Machine policy value 'DisableFlyWeightPatching' is 0
+MSI (s) (DC:D4) [21:04:37:570]: APPCOMPAT: looking for appcompat database entry with ProductCode '{61BEC5C3-7562-47F5-A621-E5950D626985}'.
+MSI (s) (DC:D4) [21:04:37:570]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:D4) [21:04:37:572]: Transforms are not secure.
+MSI (s) (DC:D4) [21:04:37:572]: Note: 1: 2205 2:  3: Control 
+MSI (s) (DC:D4) [21:04:37:572]: Command Line: UPGRADINGPRODUCTCODE={67A4A902-925A-493C-ADFD-EF3DB5353044} CLIENTPROCESSID=6800 CLIENTUILEVEL=3 REMOVE=ALL 
+MSI (s) (DC:D4) [21:04:37:572]: PROPERTY CHANGE: Adding PackageCode property. Its value is '{AE18C7D0-0F52-46B9-9926-D0D0A3650265}'.
+MSI (s) (DC:D4) [21:04:37:572]: Product Code passed to Engine.Initialize:           '{61BEC5C3-7562-47F5-A621-E5950D626985}'
+MSI (s) (DC:D4) [21:04:37:572]: Product Code from property table before transforms: '{61BEC5C3-7562-47F5-A621-E5950D626985}'
+MSI (s) (DC:D4) [21:04:37:572]: Product Code from property table after transforms:  '{61BEC5C3-7562-47F5-A621-E5950D626985}'
+MSI (s) (DC:D4) [21:04:37:572]: Product registered: entering maintenance mode
+MSI (s) (DC:D4) [21:04:37:572]: Determined that existing product (either this product or the product being upgraded with a patch) is installed per-machine.
+MSI (s) (DC:D4) [21:04:37:572]: MSI_LUA: Nested installation UAC elevation tracks that of parent (is not elevated)
+MSI (s) (DC:D4) [21:04:37:572]: Product {61BEC5C3-7562-47F5-A621-E5950D626985} is admin assigned: LocalSystem owns the publish key.
+MSI (s) (DC:D4) [21:04:37:572]: Product {61BEC5C3-7562-47F5-A621-E5950D626985} is managed.
+MSI (s) (DC:D4) [21:04:37:572]: MSI_LUA: Credential prompt not required, user is an admin
+MSI (s) (DC:D4) [21:04:37:572]: PROPERTY CHANGE: Adding ProductState property. Its value is '5'.
+MSI (s) (DC:D4) [21:04:37:572]: PROPERTY CHANGE: Adding ProductToBeRegistered property. Its value is '1'.
+MSI (s) (DC:D4) [21:04:37:572]: Package name retrieved from configuration data: 'rfflog-ok-1.0.0.msi'
+MSI (s) (DC:D4) [21:04:37:572]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:D4) [21:04:37:572]: Note: 1: 2262 2: AdminProperties 3: -2147287038 
+MSI (s) (DC:D4) [21:04:37:572]: Machine policy value 'DisableMsi' is 0
+MSI (s) (DC:D4) [21:04:37:574]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:D4) [21:04:37:574]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:D4) [21:04:37:574]: Product {61BEC5C3-7562-47F5-A621-E5950D626985} is admin assigned: LocalSystem owns the publish key.
+MSI (s) (DC:D4) [21:04:37:574]: Product {61BEC5C3-7562-47F5-A621-E5950D626985} is managed.
+MSI (s) (DC:D4) [21:04:37:574]: Running product '{61BEC5C3-7562-47F5-A621-E5950D626985}' with elevated privileges: Product is assigned.
+MSI (s) (DC:D4) [21:04:37:574]: PROPERTY CHANGE: Adding UPGRADINGPRODUCTCODE property. Its value is '{67A4A902-925A-493C-ADFD-EF3DB5353044}'.
+MSI (s) (DC:D4) [21:04:37:574]: PROPERTY CHANGE: Adding CLIENTPROCESSID property. Its value is '6800'.
+MSI (s) (DC:D4) [21:04:37:574]: PROPERTY CHANGE: Adding CLIENTUILEVEL property. Its value is '3'.
+MSI (s) (DC:D4) [21:04:37:574]: PROPERTY CHANGE: Adding REMOVE property. Its value is 'ALL'.
+MSI (s) (DC:D4) [21:04:37:574]: Machine policy value 'DisableAutomaticApplicationShutdown' is 1
+MSI (s) (DC:D4) [21:04:37:574]: RESTART MANAGER: Disabled by DisableAutomaticApplicationShutdown system policy; Windows Installer will use the built-in FilesInUse functionality.
+MSI (s) (DC:D4) [21:04:37:574]: TRANSFORMS property is now: 
+MSI (s) (DC:D4) [21:04:37:574]: PROPERTY CHANGE: Adding PRODUCTLANGUAGE property. Its value is '1033'.
+MSI (s) (DC:D4) [21:04:37:574]: PROPERTY CHANGE: Adding VersionDatabase property. Its value is '500'.
+MSI (s) (DC:D4) [21:04:37:576]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming
+MSI (s) (DC:D4) [21:04:37:578]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Favorites
+MSI (s) (DC:D4) [21:04:37:580]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+MSI (s) (DC:D4) [21:04:37:582]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Documents
+MSI (s) (DC:D4) [21:04:37:586]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+MSI (s) (DC:D4) [21:04:37:588]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent
+MSI (s) (DC:D4) [21:04:37:590]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\SendTo
+MSI (s) (DC:D4) [21:04:37:590]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates
+MSI (s) (DC:D4) [21:04:37:590]: SHELL32::SHGetFolderPath returned: C:\ProgramData
+MSI (s) (DC:D4) [21:04:37:592]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Local
+MSI (s) (DC:D4) [21:04:37:594]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Pictures
+MSI (s) (DC:D4) [21:04:37:598]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (DC:D4) [21:04:37:598]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (DC:D4) [21:04:37:602]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+MSI (s) (DC:D4) [21:04:37:602]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu
+MSI (s) (DC:D4) [21:04:37:606]: SHELL32::SHGetFolderPath returned: C:\Users\Public\Desktop
+MSI (s) (DC:D4) [21:04:37:612]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (DC:D4) [21:04:37:612]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (DC:D4) [21:04:37:614]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+MSI (s) (DC:D4) [21:04:37:616]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu
+MSI (s) (DC:D4) [21:04:37:618]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Desktop
+MSI (s) (DC:D4) [21:04:37:620]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Templates
+MSI (s) (DC:D4) [21:04:37:620]: SHELL32::SHGetFolderPath returned: C:\Windows\Fonts
+MSI (s) (DC:D4) [21:04:37:620]: Note: 1: 2898 2: MS Sans Serif 3: MS Sans Serif 4: 0 5: 16 
+MSI (s) (DC:D4) [21:04:37:632]: MSI_LUA: Setting MsiRunningElevated property to 1 because the install is already running elevated.
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding MsiRunningElevated property. Its value is '1'.
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding Privileged property. Its value is '1'.
+MSI (s) (DC:D4) [21:04:37:632]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding USERNAME property. Its value is 'Windows User'.
+MSI (s) (DC:D4) [21:04:37:632]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding COMPANYNAME property. Its value is 'X'.
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding Installed property. Its value is '00:00:00'.
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding DATABASE property. Its value is 'C:\Windows\Installer\fc7de.msi'.
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding OriginalDatabase property. Its value is 'C:\Windows\Installer\fc7de.msi'.
+MSI (s) (DC:D4) [21:04:37:632]: Machine policy value 'MsiDisableEmbeddedUI' is 0
+MSI (s) (DC:D4) [21:04:37:632]: EEUI - Disabling MsiEmbeddedUI for service because it's not a quiet/basic install
+MSI (s) (DC:D4) [21:04:37:632]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:D4) [21:04:37:632]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:D4) [21:04:37:632]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding UILevel property. Its value is '2'.
+MSI (s) (DC:D4) [21:04:37:632]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:D4) [21:04:37:632]: PROPERTY CHANGE: Adding Preselected property. Its value is '1'.
+MSI (s) (DC:D4) [21:04:37:632]: APPCOMPAT: [DetectVersionLaunchCondition] Launch condition already passes.
+MSI (s) (DC:D4) [21:04:37:634]: PROPERTY CHANGE: Adding ACTION property. Its value is 'INSTALL'.
+MSI (s) (DC:D4) [21:04:37:634]: Doing action: INSTALL
+MSI (s) (DC:D4) [21:04:37:634]: Note: 1: 2205 2:  3: ActionText 
+Action start 21:04:37: INSTALL.
+MSI (s) (DC:D4) [21:04:37:636]: Running ExecuteSequence
+MSI (s) (DC:D4) [21:04:37:636]: Doing action: FindRelatedProducts
+MSI (s) (DC:D4) [21:04:37:636]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (DC:D4) [21:04:37:638]: Skipping FindRelatedProducts action: not run in maintenance mode
+Action start 21:04:37: FindRelatedProducts.
+MSI (s) (DC:D4) [21:04:37:638]: Doing action: LaunchConditions
+MSI (s) (DC:D4) [21:04:37:638]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: FindRelatedProducts. Return value 0.
+Action start 21:04:37: LaunchConditions.
+MSI (s) (DC:D4) [21:04:37:640]: Doing action: ValidateProductID
+MSI (s) (DC:D4) [21:04:37:640]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: LaunchConditions. Return value 1.
+Action start 21:04:37: ValidateProductID.
+MSI (s) (DC:D4) [21:04:37:642]: Doing action: CostInitialize
+MSI (s) (DC:D4) [21:04:37:642]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: ValidateProductID. Return value 1.
+MSI (s) (DC:D4) [21:04:37:642]: Machine policy value 'MaxPatchCacheSize' is 10
+MSI (s) (DC:D4) [21:04:37:644]: PROPERTY CHANGE: Adding ROOTDRIVE property. Its value is 'C:\'.
+MSI (s) (DC:D4) [21:04:37:644]: PROPERTY CHANGE: Adding CostingComplete property. Its value is '0'.
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2205 2:  3: __MsiPatchFileList 
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2228 2:  3: PatchPackage 4: SELECT `DiskId`, `PatchId`, `LastSequence` FROM `Media`, `PatchPackage` WHERE `Media`.`DiskId`=`PatchPackage`.`Media_` ORDER BY `DiskId`  
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2205 2:  3: Patch 
+Action start 21:04:37: CostInitialize.
+MSI (s) (DC:D4) [21:04:37:644]: Doing action: FileCost
+MSI (s) (DC:D4) [21:04:37:644]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: CostInitialize. Return value 1.
+MSI (s) (DC:D4) [21:04:37:646]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (DC:D4) [21:04:37:646]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:D4) [21:04:37:646]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:D4) [21:04:37:646]: Note: 1: 2205 2:  3: Class 
+MSI (s) (DC:D4) [21:04:37:646]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (DC:D4) [21:04:37:646]: Note: 1: 2205 2:  3: TypeLib 
+Action start 21:04:37: FileCost.
+MSI (s) (DC:D4) [21:04:37:646]: Doing action: CostFinalize
+MSI (s) (DC:D4) [21:04:37:646]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: FileCost. Return value 1.
+MSI (s) (DC:D4) [21:04:37:649]: PROPERTY CHANGE: Adding OutOfDiskSpace property. Its value is '0'.
+MSI (s) (DC:D4) [21:04:37:649]: PROPERTY CHANGE: Adding OutOfNoRbDiskSpace property. Its value is '0'.
+MSI (s) (DC:D4) [21:04:37:649]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceAvailable property. Its value is '0'.
+MSI (s) (DC:D4) [21:04:37:649]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRequired property. Its value is '0'.
+MSI (s) (DC:D4) [21:04:37:649]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRemaining property. Its value is '0'.
+MSI (s) (DC:D4) [21:04:37:651]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (DC:D4) [21:04:37:651]: Note: 1: 2228 2:  3: MsiAssembly 4:  SELECT `MsiAssembly`.`Attributes`, `MsiAssembly`.`File_Application`, `MsiAssembly`.`File_Manifest`,  `Component`.`KeyPath` FROM `MsiAssembly`, `Component` WHERE  `MsiAssembly`.`Component_` = `Component`.`Component` AND `MsiAssembly`.`Component_` = ? 
+MSI (s) (DC:D4) [21:04:37:651]: PROPERTY CHANGE: Adding INSTALLFOLDER property. Its value is 'C:\Program Files\RFFLogFixture-ok'.
+MSI (s) (DC:D4) [21:04:37:651]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (DC:D4) [21:04:37:651]: Note: 1: 2205 2:  3: Condition 
+MSI (s) (DC:D4) [21:04:37:651]: Machine policy value 'DisableUserInstalls' is 0
+MSI (s) (DC:D4) [21:04:37:651]: PROPERTY CHANGE: Adding TARGETDIR property. Its value is 'C:\'.
+MSI (s) (DC:D4) [21:04:37:651]: PROPERTY CHANGE: Modifying INSTALLFOLDER property. Its current value is 'C:\Program Files\RFFLogFixture-ok'. Its new value: 'C:\Program Files\RFFLogFixture-ok\'.
+MSI (s) (DC:D4) [21:04:37:651]: Target path resolution complete. Dumping Directory table...
+MSI (s) (DC:D4) [21:04:37:651]: Note: target paths subject to change (via custom actions or browsing)
+MSI (s) (DC:D4) [21:04:37:651]: Dir (target): Key: TARGETDIR	, Object: C:\
+MSI (s) (DC:D4) [21:04:37:651]: Dir (target): Key: ProgramFiles64Folder	, Object: C:\Program Files\
+MSI (s) (DC:D4) [21:04:37:651]: Dir (target): Key: INSTALLFOLDER	, Object: C:\Program Files\RFFLogFixture-ok\
+MSI (s) (DC:D4) [21:04:37:651]: PROPERTY CHANGE: Adding INSTALLLEVEL property. Its value is '1'.
+Action start 21:04:37: CostFinalize.
+MSI (s) (DC:D4) [21:04:37:654]: Doing action: MigrateFeatureStates
+MSI (s) (DC:D4) [21:04:37:654]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: CostFinalize. Return value 1.
+MSI (s) (DC:D4) [21:04:37:656]: Skipping MigrateFeatureStates action: not run in maintenance mode
+Action start 21:04:37: MigrateFeatureStates.
+MSI (s) (DC:D4) [21:04:37:656]: Doing action: InstallValidate
+MSI (s) (DC:D4) [21:04:37:656]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: MigrateFeatureStates. Return value 0.
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: Dialog 
+MSI (s) (DC:D4) [21:04:37:658]: Feature: Main; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (DC:D4) [21:04:37:658]: Component: fil0Kfx1ErIaNg7jxuAM9JhTlP6aaM; Installed: Local;   Request: Absent;   Action: Absent
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: Font 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: Class 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (DC:D4) [21:04:37:658]: Note: 1: 2205 2:  3: TypeLib 
+Action start 21:04:37: InstallValidate.
+MSI (s) (DC:D4) [21:04:37:660]: Note: 1: 2205 2:  3: _RemoveFilePath 
+MSI (s) (DC:D4) [21:04:37:662]: PROPERTY CHANGE: Modifying CostingComplete property. Its current value is '0'. Its new value: '1'.
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: Registry 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: Font 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: Class 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2205 2:  3: TypeLib 
+MSI (s) (DC:D4) [21:04:37:662]: Note: 1: 2727 2:  
+MSI (s) (DC:D4) [21:04:37:665]: Note: 1: 2727 2:  
+MSI (s) (DC:D4) [21:04:37:665]: Doing action: RemoveExistingProducts
+MSI (s) (DC:D4) [21:04:37:665]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: InstallValidate. Return value 1.
+MSI (s) (DC:D4) [21:04:37:667]: Skipping RemoveExistingProducts action: current configuration is maintenance mode or an uninstall
+Action start 21:04:37: RemoveExistingProducts.
+MSI (s) (DC:D4) [21:04:37:667]: Doing action: InstallInitialize
+MSI (s) (DC:D4) [21:04:37:667]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RemoveExistingProducts. Return value 0.
+MSI (s) (DC:D4) [21:04:37:667]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:D4) [21:04:37:667]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:D4) [21:04:37:667]: BeginTransaction: Locking Server
+MSI (s) (DC:D4) [21:04:37:669]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:D4) [21:04:37:669]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (DC:D4) [21:04:37:669]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:D4) [21:04:37:669]: Server not locked: locking for product {61BEC5C3-7562-47F5-A621-E5950D626985}
+MSI (s) (DC:D4) [21:04:37:693]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (DC:D4) [21:04:37:693]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (DC:D4) [21:04:37:699]: Note: 1: 2205 2:  3: ActionText 
+Action start 21:04:37: InstallInitialize.
+MSI (s) (DC:D4) [21:04:37:701]: PROPERTY CHANGE: Deleting ProductToBeRegistered property. Its current value is '1'.
+MSI (s) (DC:D4) [21:04:37:701]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (DC:D4) [21:04:37:701]: Note: 1: 2228 2:  3: Icon 4: SELECT `Name`, `Data` FROM `Icon` 
+MSI (s) (DC:D4) [21:04:37:701]: Doing action: ProcessComponents
+MSI (s) (DC:D4) [21:04:37:701]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: InstallInitialize. Return value 1.
+Action start 21:04:37: ProcessComponents.
+MSI (s) (DC:D4) [21:04:37:707]: Doing action: UnpublishFeatures
+MSI (s) (DC:D4) [21:04:37:707]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: ProcessComponents. Return value 1.
+Action start 21:04:37: UnpublishFeatures.
+MSI (s) (DC:D4) [21:04:37:711]: Doing action: RemoveFiles
+MSI (s) (DC:D4) [21:04:37:711]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: UnpublishFeatures. Return value 1.
+MSI (s) (DC:D4) [21:04:37:713]: Note: 1: 2205 2:  3: RemoveFile 
+Action start 21:04:37: RemoveFiles.
+MSI (s) (DC:D4) [21:04:37:727]: Note: 1: 2205 2:  3: RemoveFile 
+MSI (s) (DC:D4) [21:04:37:731]: Doing action: RemoveFolders
+MSI (s) (DC:D4) [21:04:37:731]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RemoveFiles. Return value 0.
+Action start 21:04:37: RemoveFolders.
+MSI (s) (DC:D4) [21:04:37:733]: Doing action: CreateFolders
+MSI (s) (DC:D4) [21:04:37:733]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RemoveFolders. Return value 0.
+Action start 21:04:37: CreateFolders.
+MSI (s) (DC:D4) [21:04:37:737]: Doing action: InstallFiles
+MSI (s) (DC:D4) [21:04:37:737]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: CreateFolders. Return value 0.
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2228 2:  3: Patch 4: SELECT `Patch`.`File_`, `Patch`.`Header`, `Patch`.`Attributes`, `Patch`.`Sequence`, `Patch`.`StreamRef_` FROM `Patch` WHERE `Patch`.`File_` = ? AND `Patch`.`#_MsiActive`=? ORDER BY `Patch`.`Sequence` 
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1302 
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2205 2:  3: MsiSFCBypass 
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2228 2:  3: MsiSFCBypass 4: SELECT `File_` FROM `MsiSFCBypass` WHERE `File_` = ? 
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (DC:D4) [21:04:37:739]: Note: 1: 2228 2:  3: MsiPatchHeaders 4: SELECT `Header` FROM `MsiPatchHeaders` WHERE `StreamRef` = ? 
+Action start 21:04:37: InstallFiles.
+MSI (s) (DC:D4) [21:04:37:741]: Doing action: RegisterUser
+MSI (s) (DC:D4) [21:04:37:741]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: InstallFiles. Return value 1.
+Action start 21:04:37: RegisterUser.
+MSI (s) (DC:D4) [21:04:37:743]: Doing action: RegisterProduct
+MSI (s) (DC:D4) [21:04:37:743]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RegisterUser. Return value 0.
+Action start 21:04:37: RegisterProduct.
+MSI (s) (DC:D4) [21:04:37:745]: Doing action: PublishFeatures
+MSI (s) (DC:D4) [21:04:37:745]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RegisterProduct. Return value 1.
+Action start 21:04:37: PublishFeatures.
+MSI (s) (DC:D4) [21:04:37:747]: Doing action: PublishProduct
+MSI (s) (DC:D4) [21:04:37:747]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: PublishFeatures. Return value 1.
+Action start 21:04:37: PublishProduct.
+MSI (s) (DC:D4) [21:04:37:753]: Doing action: InstallFinalize
+MSI (s) (DC:D4) [21:04:37:753]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: PublishProduct. Return value 1.
+MSI (s) (DC:D4) [21:04:37:755]: Running Script: C:\Windows\Installer\MSID058.tmp
+MSI (s) (DC:D4) [21:04:37:755]: PROPERTY CHANGE: Adding UpdateStarted property. Its value is '1'.
+MSI (s) (DC:D4) [21:04:37:759]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:D4) [21:04:37:759]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:D4) [21:04:37:761]: Backup folder is created by user
+MSI (s) (DC:D4) [21:04:37:761]: Note: 1: 2318 2:  
+MSI (s) (DC:D4) [21:04:37:761]: Backup folder is in cache folder
+MSI (s) (DC:D4) [21:04:37:763]: Note: 1: 2318 2:  
+MSI (s) (DC:D4) [21:04:37:763]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: Header(Signature=1397708873,Version=500,Timestamp=1568123027,LangId=1033,Platform=589824,ScriptType=1,ScriptMajorVersion=21,ScriptMinorVersion=4,ScriptAttributes=1)
+Action start 21:04:37: InstallFinalize.
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: ProductInfo(ProductKey={61BEC5C3-7562-47F5-A621-E5950D626985},ProductName=RFF Log Fixture ok,PackageName=rfflog-ok-1.0.0.msi,Language=1033,Version=16777216,Assignment=1,ObsoleteArg=0,,,PackageCode={AE18C7D0-0F52-46B9-9926-D0D0A3650265},,,InstanceType=0,LUASetting=0,RemoteURTInstalls=0,ProductDeploymentFlags=3)
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: DialogInfo(Type=0,Argument=1033)
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: DialogInfo(Type=1,Argument=RFF Log Fixture ok)
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: RollbackInfo(,RollbackAction=Rollback,RollbackDescription=Rolling back action: [1],,CleanupAction=RollbackCleanup,CleanupDescription=Removing backup files File: [1],)
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: SetBaseline(Baseline=0,)
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: SetBaseline(Baseline=1,)
+MSI (s) (DC:D4) [21:04:37:765]: Executing op: ActionStart(Name=InstallInitialize,,)
+MSI (s) (DC:D4) [21:04:37:767]: Executing op: ProductUnregister(UpgradeCode={7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E62})
+MSI (s) (DC:D4) [21:04:37:767]: Note: 1: 1402 2: UNKNOWN\Products\3C5CEB1626575F746A125E59D0269658\Transforms 3: 2 
+MSI (s) (DC:D4) [21:04:37:767]: Note: 1: 1402 2: UNKNOWN\Products\3C5CEB1626575F746A125E59D0269658\Transforms 3: 2 
+MSI (s) (DC:D4) [21:04:37:767]: Scheduling file 'C:\Windows\Installer\fc7de.msi' for deletion during post-install cleanup (not post-reboot).
+MSI (s) (DC:D4) [21:04:37:789]: Note: 1: 1402 2: UNKNOWN\Products\3C5CEB1626575F746A125E59D0269658\Usage 3: 2 
+MSI (s) (DC:D4) [21:04:37:790]: Executing op: ProductCPDisplayInfoUnregister()
+MSI (s) (DC:D4) [21:04:37:790]: Executing op: ProductUnpublish(PackageKey={AE18C7D0-0F52-46B9-9926-D0D0A3650265})
+MSI (s) (DC:D4) [21:04:37:792]: Executing op: UpgradeCodeUnpublish(UpgradeCode={7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E62})
+MSI (s) (DC:D4) [21:04:37:792]: Executing op: ProductUnpublishClient(,,)
+MSI (s) (DC:D4) [21:04:37:794]: Note: 1: 1402 2: UNKNOWN\Installer\Products\3C5CEB1626575F746A125E59D0269658 3: 2 
+MSI (s) (DC:D4) [21:04:37:794]: Executing op: SourceListUnpublish(,)
+MSI (s) (DC:D4) [21:04:37:794]: Note: 1: 1402 2: UNKNOWN\Installer\Products\3C5CEB1626575F746A125E59D0269658\SourceList 3: 2 
+MSI (s) (DC:D4) [21:04:37:794]: Executing op: ActionStart(Name=ProcessComponents,Description=Updating component registration,)
+MSI (s) (DC:D4) [21:04:37:794]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=24000)
+MSI (s) (DC:D4) [21:04:37:794]: Executing op: UnregisterSharedComponentProvider(Component={2E5D56C8-519D-57FB-891B-21732AA08D66},ProductCode={61BEC5C3-7562-47F5-A621-E5950D626985})
+MSI (s) (DC:D4) [21:04:37:794]: Executing op: ComponentUnregister(ComponentId={2E5D56C8-519D-57FB-891B-21732AA08D66},,BinaryType=1,)
+MSI (s) (DC:D4) [21:04:37:796]: Executing op: ActionStart(Name=UnpublishFeatures,Description=Unpublishing Product Features Feature: [1],)
+MSI (s) (DC:D4) [21:04:37:796]: Executing op: FeatureUnpublish(Feature=Main,,Absent=2,Component=!U^u2krW?DbR5!M8O_zH)
+MSI (s) (DC:D4) [21:04:37:796]: Note: 1: 1402 2: UNKNOWN\Installer\Features\3C5CEB1626575F746A125E59D0269658 3: 2 
+MSI (s) (DC:D4) [21:04:37:798]: Executing op: ActionStart(Name=RemoveFiles,Description=Removing files File: [1], Directory: [9],)
+MSI (s) (DC:D4) [21:04:37:798]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=175000)
+MSI (s) (DC:D4) [21:04:37:798]: Executing op: SetTargetFolder(Folder=C:\Program Files\RFFLogFixture-ok\)
+MSI (s) (DC:D4) [21:04:37:798]: Executing op: FileRemove(,FileName=readme.txt,,ComponentId={2E5D56C8-519D-57FB-891B-21732AA08D66})
+MSI (s) (DC:D4) [21:04:37:800]: Verifying accessibility of file: readme.txt
+MSI (s) (DC:D4) [21:04:37:802]: Note: 1: 2318 2:  
+MSI (s) (DC:D4) [21:04:37:802]: Executing op: ActionStart(Name=PublishProduct,Description=Publishing product information,)
+MSI (s) (DC:D4) [21:04:37:804]: Executing op: CleanupConfigData()
+MSI (s) (DC:D4) [21:04:37:804]: Executing op: RegisterPatchOrder(Continue=0,SequenceType=0,Remove=1)
+MSI (s) (DC:D4) [21:04:37:804]: Note: 1: 1402 2: UNKNOWN\Installer\Products\3C5CEB1626575F746A125E59D0269658\Patches 3: 2 
+MSI (s) (DC:D4) [21:04:37:804]: Executing op: RegisterPatchOrder(Continue=0,SequenceType=1,Remove=1)
+MSI (s) (DC:D4) [21:04:37:804]: Executing op: CleanupConfigData(RemovingProduct=1)
+MSI (s) (DC:D4) [21:04:37:804]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\3C5CEB1626575F746A125E59D0269658\Patches 3: 2 
+MSI (s) (DC:D4) [21:04:37:804]: Executing op: End(Checksum=0,ProgressTotalHDWord=0,ProgressTotalLDWord=199000)
+MSI (s) (DC:D4) [21:04:37:814]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:D4) [21:04:37:816]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:D4) [21:04:37:816]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:D4) [21:04:37:818]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:D4) [21:04:37:822]: Backup folder is created by user
+MSI (s) (DC:D4) [21:04:37:824]: Note: 1: 2318 2:  
+MSI (s) (DC:D4) [21:04:37:826]: Note: 1: 2318 2:  
+MSI (s) (DC:D4) [21:04:37:826]: No System Restore sequence number for this installation.
+MSI (s) (DC:D4) [21:04:37:826]: Unlocking Server
+MSI (s) (DC:D4) [21:04:37:834]: PROPERTY CHANGE: Deleting UpdateStarted property. Its current value is '1'.
+Action ended 21:04:37: InstallFinalize. Return value 1.
+Action ended 21:04:37: INSTALL. Return value 1.
+Property(N): ALLUSERS = 1
+Property(N): Manufacturer = RFF Lab
+Property(N): ProductCode = {61BEC5C3-7562-47F5-A621-E5950D626985}
+Property(N): ProductLanguage = 1033
+Property(N): ProductName = RFF Log Fixture ok
+Property(N): ProductVersion = 1.0.0
+Property(N): UpgradeCode = {7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E62}
+Property(N): SecureCustomProperties = WIX_DOWNGRADE_DETECTED;WIX_UPGRADE_DETECTED
+Property(N): INSTALLFOLDER = C:\Program Files\RFFLogFixture-ok\
+Property(N): ProgramFiles64Folder = C:\Program Files\
+Property(N): TARGETDIR = C:\
+Property(N): PackageCode = {AE18C7D0-0F52-46B9-9926-D0D0A3650265}
+Property(N): ProductState = 5
+Property(N): UPGRADINGPRODUCTCODE = {67A4A902-925A-493C-ADFD-EF3DB5353044}
+Property(N): CLIENTPROCESSID = 6800
+Property(N): CLIENTUILEVEL = 3
+Property(N): REMOVE = ALL
+Property(N): PRODUCTLANGUAGE = 1033
+Property(N): VersionDatabase = 500
+Property(N): VersionMsi = 5.00
+Property(N): VersionNT = 603
+Property(N): VersionNT64 = 603
+Property(N): WindowsBuild = 9600
+Property(N): ServicePackLevel = 0
+Property(N): ServicePackLevelMinor = 0
+Property(N): MsiNTProductType = 1
+Property(N): WindowsFolder = C:\Windows\
+Property(N): WindowsVolume = C:\
+Property(N): System64Folder = C:\Windows\system32\
+Property(N): SystemFolder = C:\Windows\SysWOW64\
+Property(N): RemoteAdminTS = 1
+Property(N): TempFolder = C:\Users\ADMINI~1\AppData\Local\Temp\
+Property(N): ProgramFilesFolder = C:\Program Files (x86)\
+Property(N): CommonFilesFolder = C:\Program Files (x86)\Common Files\
+Property(N): CommonFiles64Folder = C:\Program Files\Common Files\
+Property(N): AppDataFolder = C:\Users\Administrator\AppData\Roaming\
+Property(N): FavoritesFolder = C:\Users\Administrator\Favorites\
+Property(N): NetHoodFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Network Shortcuts\
+Property(N): PersonalFolder = C:\Users\Administrator\Documents\
+Property(N): PrintHoodFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Printer Shortcuts\
+Property(N): RecentFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent\
+Property(N): SendToFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\SendTo\
+Property(N): TemplateFolder = C:\ProgramData\Microsoft\Windows\Templates\
+Property(N): CommonAppDataFolder = C:\ProgramData\
+Property(N): LocalAppDataFolder = C:\Users\Administrator\AppData\Local\
+Property(N): MyPicturesFolder = C:\Users\Administrator\Pictures\
+Property(N): AdminToolsFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(N): StartupFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
+Property(N): ProgramMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+Property(N): StartMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\
+Property(N): DesktopFolder = C:\Users\Public\Desktop\
+Property(N): FontsFolder = C:\Windows\Fonts\
+Property(N): GPTSupport = 1
+Property(N): OLEAdvtSupport = 1
+Property(N): ShellAdvtSupport = 1
+Property(N): MsiAMD64 = 23
+Property(N): Msix64 = 23
+Property(N): Intel = 23
+Property(N): PhysicalMemory = 3289
+Property(N): VirtualMemory = 1202
+Property(N): AdminUser = 1
+Property(N): MsiTrueAdminUser = 1
+Property(N): LogonUser = Administrator
+Property(N): UserSID = S-1-5-21-1489226388-2033643539-3966603402-500
+Property(N): UserLanguageID = 1033
+Property(N): ComputerName = CLIENT3
+Property(N): SystemLanguageID = 1033
+Property(N): ScreenX = 1024
+Property(N): ScreenY = 768
+Property(N): CaptionHeight = 23
+Property(N): BorderTop = 1
+Property(N): BorderSide = 1
+Property(N): TextHeight = 16
+Property(N): TextInternalLeading = 3
+Property(N): ColorBits = 32
+Property(N): TTCSupport = 1
+Property(N): Time = 21:04:37
+Property(N): Date = 11/23/2026
+Property(N): MsiNetAssemblySupport = 4.8.9221.0
+Property(N): MsiWin32AssemblySupport = 6.3.26100.9818
+Property(N): RedirectedDllSupport = 2
+Property(N): MsiRunningElevated = 1
+Property(N): Privileged = 1
+Property(N): USERNAME = Windows User
+Property(N): COMPANYNAME = X
+Property(N): Installed = 00:00:00
+Property(N): DATABASE = C:\Windows\Installer\fc7de.msi
+Property(N): OriginalDatabase = C:\Windows\Installer\fc7de.msi
+Property(N): UILevel = 2
+Property(N): Preselected = 1
+Property(N): ACTION = INSTALL
+Property(N): ROOTDRIVE = C:\
+Property(N): CostingComplete = 1
+Property(N): OutOfDiskSpace = 0
+Property(N): OutOfNoRbDiskSpace = 0
+Property(N): PrimaryVolumeSpaceAvailable = 0
+Property(N): PrimaryVolumeSpaceRequired = 0
+Property(N): PrimaryVolumeSpaceRemaining = 0
+Property(N): INSTALLLEVEL = 1
+MSI (s) (DC:F0) [21:04:37:866]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:37:866]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 16 
+MSI (s) (DC:F0) [21:04:37:866]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:37:866]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 21 
+MSI (s) (DC:F0) [21:04:37:868]: Doing action: InstallInitialize
+MSI (s) (DC:F0) [21:04:37:868]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RemoveExistingProducts. Return value 1.
+MSI (s) (DC:F0) [21:04:37:868]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:F0) [21:04:37:868]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:F0) [21:04:37:868]: BeginTransaction: Locking Server
+MSI (s) (DC:F0) [21:04:37:871]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:F0) [21:04:37:873]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (DC:F0) [21:04:37:875]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:F0) [21:04:37:877]: Server not locked: locking for product {67A4A902-925A-493C-ADFD-EF3DB5353044}
+Action start 21:04:37: InstallInitialize.
+MSI (s) (DC:F0) [21:04:37:897]: Doing action: ProcessComponents
+MSI (s) (DC:F0) [21:04:37:897]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: InstallInitialize. Return value 1.
+MSI (s) (DC:F0) [21:04:37:897]: Note: 1: 2205 2:  3: MsiPatchCertificate 
+MSI (s) (DC:F0) [21:04:37:897]: LUA patching is disabled: missing MsiPatchCertificate table
+MSI (s) (DC:F0) [21:04:37:897]: Resolving source.
+MSI (s) (DC:F0) [21:04:37:897]: Resolving source to launched-from source.
+MSI (s) (DC:F0) [21:04:37:897]: Setting launched-from source as last-used.
+MSI (s) (DC:F0) [21:04:37:897]: Note: 1: 2205 2:  3: Control 
+MSI (s) (DC:F0) [21:04:37:897]: PROPERTY CHANGE: Adding SourceDir property. Its value is 'C:\rfflog\'.
+MSI (s) (DC:F0) [21:04:37:897]: PROPERTY CHANGE: Adding SOURCEDIR property. Its value is 'C:\rfflog\'.
+MSI (s) (DC:F0) [21:04:37:897]: PROPERTY CHANGE: Adding SourcedirProduct property. Its value is '{67A4A902-925A-493C-ADFD-EF3DB5353044}'.
+MSI (s) (DC:F0) [21:04:37:897]: SOURCEDIR ==> C:\rfflog\
+MSI (s) (DC:F0) [21:04:37:897]: SOURCEDIR product ==> {67A4A902-925A-493C-ADFD-EF3DB5353044}
+MSI (s) (DC:F0) [21:04:37:899]: Determining source type
+MSI (s) (DC:F0) [21:04:37:899]: Source type from package 'rfflog-ok-2.0.0.msi': 2
+MSI (s) (DC:F0) [21:04:37:899]: SECREPAIR: Hash Database: C:\Windows\Installer\SourceHash{67A4A902-925A-493C-ADFD-EF3DB5353044}
+MSI (s) (DC:F0) [21:04:37:901]: Note: 1: 2262 2: SourceHash 3: -2147287038 
+MSI (s) (DC:F0) [21:04:37:907]: SECREPAIR: New Hash Database creation complete.
+Action start 21:04:37: ProcessComponents.
+MSI (s) (DC:F0) [21:04:37:913]: Source path resolution complete. Dumping Directory table...
+MSI (s) (DC:F0) [21:04:37:913]: Dir (source): Key: TARGETDIR	, Object: C:\rfflog\	, LongSubPath: 	, ShortSubPath: 
+MSI (s) (DC:F0) [21:04:37:913]: Dir (source): Key: ProgramFiles64Folder	, Object: C:\rfflog\	, LongSubPath: PFiles64\	, ShortSubPath: 
+MSI (s) (DC:F0) [21:04:37:913]: Dir (source): Key: INSTALLFOLDER	, Object: C:\rfflog\	, LongSubPath: PFiles64\RFFLogFixture-ok\	, ShortSubPath: PFiles64\gq2pjarn\
+MSI (s) (DC:F0) [21:04:37:913]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (DC:F0) [21:04:37:915]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (DC:F0) [21:04:37:917]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (DC:F0) [21:04:37:921]: Doing action: UnpublishFeatures
+MSI (s) (DC:F0) [21:04:37:921]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: ProcessComponents. Return value 1.
+Action start 21:04:37: UnpublishFeatures.
+MSI (s) (DC:F0) [21:04:37:921]: Doing action: RemoveFiles
+MSI (s) (DC:F0) [21:04:37:921]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: UnpublishFeatures. Return value 1.
+MSI (s) (DC:F0) [21:04:37:923]: Note: 1: 2205 2:  3: RemoveFile 
+MSI (s) (DC:F0) [21:04:37:923]: Note: 1: 2205 2:  3: RemoveFile 
+Action start 21:04:37: RemoveFiles.
+MSI (s) (DC:F0) [21:04:37:923]: Doing action: RemoveFolders
+MSI (s) (DC:F0) [21:04:37:923]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RemoveFiles. Return value 0.
+Action start 21:04:37: RemoveFolders.
+MSI (s) (DC:F0) [21:04:37:923]: Doing action: CreateFolders
+MSI (s) (DC:F0) [21:04:37:923]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RemoveFolders. Return value 0.
+Action start 21:04:37: CreateFolders.
+MSI (s) (DC:F0) [21:04:37:925]: Doing action: InstallFiles
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: CreateFolders. Return value 0.
+Action start 21:04:37: InstallFiles.
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2228 2:  3: Patch 4: SELECT `Patch`.`File_`, `Patch`.`Header`, `Patch`.`Attributes`, `Patch`.`Sequence`, `Patch`.`StreamRef_` FROM `Patch` WHERE `Patch`.`File_` = ? AND `Patch`.`#_MsiActive`=? ORDER BY `Patch`.`Sequence` 
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1302 
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2205 2:  3: MsiSFCBypass 
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2228 2:  3: MsiSFCBypass 4: SELECT `File_` FROM `MsiSFCBypass` WHERE `File_` = ? 
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (DC:F0) [21:04:37:925]: Note: 1: 2228 2:  3: MsiPatchHeaders 4: SELECT `Header` FROM `MsiPatchHeaders` WHERE `StreamRef` = ? 
+MSI (s) (DC:F0) [21:04:37:927]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:F0) [21:04:37:927]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (DC:F0) [21:04:37:927]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:F0) [21:04:37:927]: Doing action: RegisterUser
+MSI (s) (DC:F0) [21:04:37:927]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: InstallFiles. Return value 1.
+Action start 21:04:37: RegisterUser.
+MSI (s) (DC:F0) [21:04:37:929]: Doing action: RegisterProduct
+MSI (s) (DC:F0) [21:04:37:929]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RegisterUser. Return value 1.
+MSI (s) (DC:F0) [21:04:37:929]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:37:929]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1302 
+Action start 21:04:37: RegisterProduct.
+MSI (s) (DC:F0) [21:04:37:931]: PROPERTY CHANGE: Adding ProductToBeRegistered property. Its value is '1'.
+MSI (s) (DC:F0) [21:04:37:931]: Doing action: PublishFeatures
+MSI (s) (DC:F0) [21:04:37:931]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: RegisterProduct. Return value 1.
+Action start 21:04:37: PublishFeatures.
+MSI (s) (DC:F0) [21:04:37:933]: Doing action: PublishProduct
+MSI (s) (DC:F0) [21:04:37:933]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: PublishFeatures. Return value 1.
+MSI (s) (DC:F0) [21:04:37:935]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (DC:F0) [21:04:37:935]: Note: 1: 2228 2:  3: Icon 4: SELECT `Name`, `Data` FROM `Icon` 
+Action start 21:04:37: PublishProduct.
+MSI (s) (DC:F0) [21:04:37:937]: Doing action: InstallFinalize
+MSI (s) (DC:F0) [21:04:37:937]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:37: PublishProduct. Return value 1.
+MSI (s) (DC:F0) [21:04:37:937]: Running Script: C:\Windows\Installer\MSID133.tmp
+MSI (s) (DC:F0) [21:04:37:937]: PROPERTY CHANGE: Adding UpdateStarted property. Its value is '1'.
+MSI (s) (DC:F0) [21:04:37:943]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:F0) [21:04:37:945]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:F0) [21:04:37:945]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:F0) [21:04:37:945]: Backup folder is created by user
+MSI (s) (DC:F0) [21:04:37:945]: Note: 1: 2318 2:  
+MSI (s) (DC:F0) [21:04:37:947]: Backup folder is in cache folder
+MSI (s) (DC:F0) [21:04:37:949]: Note: 1: 2318 2:  
+MSI (s) (DC:F0) [21:04:37:949]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:F0) [21:04:37:949]: Executing op: Header(Signature=1397708873,Version=500,Timestamp=1568123027,LangId=1033,Platform=589824,ScriptType=1,ScriptMajorVersion=21,ScriptMinorVersion=4,ScriptAttributes=1)
+Action start 21:04:37: InstallFinalize.
+MSI (s) (DC:F0) [21:04:37:951]: Executing op: ProductInfo(ProductKey={67A4A902-925A-493C-ADFD-EF3DB5353044},ProductName=RFF Log Fixture ok,PackageName=rfflog-ok-2.0.0.msi,Language=1033,Version=33554432,Assignment=1,ObsoleteArg=0,,,PackageCode={38DA064B-44CC-45C3-8CE9-439B2B994F54},,,InstanceType=0,LUASetting=0,RemoteURTInstalls=0,ProductDeploymentFlags=3)
+MSI (s) (DC:F0) [21:04:37:951]: Executing op: DialogInfo(Type=0,Argument=1033)
+MSI (s) (DC:F0) [21:04:37:951]: Executing op: DialogInfo(Type=1,Argument=RFF Log Fixture ok)
+MSI (s) (DC:F0) [21:04:37:951]: Executing op: RollbackInfo(,RollbackAction=Rollback,RollbackDescription=Rolling back action: [1],,CleanupAction=RollbackCleanup,CleanupDescription=Removing backup files File: [1],)
+MSI (s) (DC:F0) [21:04:37:951]: Executing op: SetBaseline(Baseline=0,)
+MSI (s) (DC:F0) [21:04:37:951]: Executing op: SetBaseline(Baseline=1,)
+MSI (s) (DC:F0) [21:04:37:951]: Executing op: ActionStart(Name=ProcessComponents,Description=Updating component registration,)
+MSI (s) (DC:F0) [21:04:37:953]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=24000)
+MSI (s) (DC:F0) [21:04:37:953]: Executing op: ComponentRegister(ComponentId={2E5D56C8-519D-57FB-891B-21732AA08D66},KeyPath=C:\Program Files\RFFLogFixture-ok\readme.txt,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=1)
+MSI (s) (DC:F0) [21:04:37:953]: Executing op: ActionStart(Name=InstallFiles,Description=Copying new files File: [1],  Directory: [9],  Size: [6],)
+MSI (s) (DC:F0) [21:04:37:953]: Executing op: ProgressTotal(Total=24,Type=0,ByteEquivalent=1)
+MSI (s) (DC:F0) [21:04:37:955]: Executing op: SetTargetFolder(Folder=C:\Program Files\RFFLogFixture-ok\)
+MSI (s) (DC:F0) [21:04:37:955]: Executing op: SetSourceFolder(Folder=1\PFiles64\gq2pjarn\|PFiles64\RFFLogFixture-ok\)
+MSI (s) (DC:F0) [21:04:37:955]: Executing op: ChangeMedia(,MediaPrompt=Please insert the disk: ,MediaCabinet=cab1.cab,BytesPerTick=65536,CopierType=2,ModuleFileName=C:\Windows\Installer\fc7df.msi,,,,,IsFirstPhysicalMedia=1)
+MSI (s) (DC:F0) [21:04:37:955]: Executing op: FileCopy(SourceName=readme.txt,SourceCabKey=fil0Kfx1ErIaNg7jxuAM9JhTlP6aaM,DestName=readme.txt,Attributes=512,FileSize=24,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,,,InstallMode=58982400,HashOptions=0,HashPart1=-1443376061,HashPart2=-1287889088,HashPart3=-1122273085,HashPart4=1901820949,,)
+MSI (s) (DC:F0) [21:04:37:955]: File: C:\Program Files\RFFLogFixture-ok\readme.txt;	To be installed;	Won't patch;	No existing file
+MSI (s) (DC:F0) [21:04:37:955]: Source for file 'fil0Kfx1ErIaNg7jxuAM9JhTlP6aaM' is compressed
+MSI (s) (DC:F0) [21:04:37:961]: Executing op: CacheSizeFlush(,)
+MSI (s) (DC:F0) [21:04:37:961]: Executing op: ActionStart(Name=RegisterProduct,Description=Registering product [1],)
+MSI (s) (DC:F0) [21:04:37:963]: Executing op: ChangeMedia(,MediaPrompt=Please insert the disk: ,MediaCabinet=cab1.cab,BytesPerTick=0,CopierType=2,ModuleFileName=C:\Windows\Installer\fc7df.msi,,,,,IsFirstPhysicalMedia=1)
+MSI (s) (DC:F0) [21:04:37:963]: Executing op: DatabaseCopy(DatabasePath=C:\Windows\Installer\fc7df.msi,ProductCode={67A4A902-925A-493C-ADFD-EF3DB5353044},,,)
+MSI (s) (DC:F0) [21:04:37:963]: Note: 1: 1402 2: UNKNOWN\Products\209A4A76A529C394DADFFED35B530344\InstallProperties 3: 2 
+MSI (s) (DC:F0) [21:04:37:968]: Note: 1: 2318 2: C:\Windows\Installer\fc7e5.msi 
+MSI (s) (DC:F0) [21:04:37:968]: File will have security applied from OpCode.
+MSI (s) (DC:F0) [21:04:37:970]: Executing op: ProductRegister(UpgradeCode={7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E62},VersionString=2.0.0,,,,InstallSource=C:\rfflog\,Publisher=RFF Lab,,,,,,,,,,,,EstimatedSize=36,,,,)
+MSI (s) (DC:F0) [21:04:37:982]: Executing op: ProductCPDisplayInfoRegister()
+MSI (s) (DC:F0) [21:04:37:986]: Executing op: ActionStart(Name=PublishFeatures,Description=Publishing Product Features Feature: [1],)
+MSI (s) (DC:F0) [21:04:37:986]: Executing op: FeaturePublish(Feature=Main,,Absent=2,Component=!U^u2krW?DbR5!M8O_zH)
+MSI (s) (DC:F0) [21:04:37:988]: Executing op: ActionStart(Name=PublishProduct,Description=Publishing product information,)
+MSI (s) (DC:F0) [21:04:37:988]: Executing op: CleanupConfigData()
+MSI (s) (DC:F0) [21:04:37:988]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\209A4A76A529C394DADFFED35B530344\Patches 3: 2 
+MSI (s) (DC:F0) [21:04:37:988]: Executing op: RegisterPatchOrder(Continue=0,SequenceType=1,Remove=0)
+MSI (s) (DC:F0) [21:04:37:988]: Note: 1: 1402 2: UNKNOWN\Products\209A4A76A529C394DADFFED35B530344\Patches 3: 2 
+MSI (s) (DC:F0) [21:04:37:990]: Executing op: ProductPublish(PackageKey={38DA064B-44CC-45C3-8CE9-439B2B994F54})
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:992]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344 3: 2 
+MSI (s) (DC:F0) [21:04:37:996]: Executing op: UpgradeCodePublish(UpgradeCode={7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E62})
+MSI (s) (DC:F0) [21:04:37:996]: Executing op: SourceListPublish(,,,,NumberOfDisks=1)
+MSI (s) (DC:F0) [21:04:37:996]: Note: 1: 1402 2: UNKNOWN\Installer\Products\209A4A76A529C394DADFFED35B530344\SourceList 3: 2 
+MSI (s) (DC:F0) [21:04:37:998]: Executing op: ProductPublishClient(,,)
+MSI (s) (DC:F0) [21:04:38:000]: Executing op: SourceListRegisterLastUsed(SourceProduct={67A4A902-925A-493C-ADFD-EF3DB5353044},LastUsedSource=C:\rfflog\)
+MSI (s) (DC:F0) [21:04:38:000]: Entering CMsiConfigurationManager::SetLastUsedSource.
+MSI (s) (DC:F0) [21:04:38:000]: Specifed source is already in a list.
+MSI (s) (DC:F0) [21:04:38:000]: User policy value 'SearchOrder' is 'nmu'
+MSI (s) (DC:F0) [21:04:38:000]: Adding new sources is allowed.
+MSI (s) (DC:F0) [21:04:38:000]: Set LastUsedSource to: C:\rfflog\.
+MSI (s) (DC:F0) [21:04:38:000]: Set LastUsedType to: n.
+MSI (s) (DC:F0) [21:04:38:000]: Set LastUsedIndex to: 1.
+MSI (s) (DC:F0) [21:04:38:000]: Executing op: End(Checksum=0,ProgressTotalHDWord=0,ProgressTotalLDWord=56792)
+MSI (s) (DC:F0) [21:04:38:014]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:F0) [21:04:38:014]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:F0) [21:04:38:016]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:F0) [21:04:38:018]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:F0) [21:04:38:022]: Backup folder is created by user
+MSI (s) (DC:F0) [21:04:38:024]: Note: 1: 2318 2:  
+MSI (s) (DC:F0) [21:04:38:026]: No System Restore sequence number for this installation.
+MSI (s) (DC:F0) [21:04:38:026]: Unlocking Server
+MSI (s) (DC:F0) [21:04:38:032]: PROPERTY CHANGE: Deleting UpdateStarted property. Its current value is '1'.
+Action ended 21:04:38: InstallFinalize. Return value 1.
+Action ended 21:04:38: INSTALL. Return value 1.
+Property(S): ALLUSERS = 1
+Property(S): Manufacturer = RFF Lab
+Property(S): ProductCode = {67A4A902-925A-493C-ADFD-EF3DB5353044}
+Property(S): ProductLanguage = 1033
+Property(S): ProductName = RFF Log Fixture ok
+Property(S): ProductVersion = 2.0.0
+Property(S): UpgradeCode = {7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E62}
+Property(S): SecureCustomProperties = WIX_DOWNGRADE_DETECTED;WIX_UPGRADE_DETECTED
+Property(S): WIX_UPGRADE_DETECTED = {61BEC5C3-7562-47F5-A621-E5950D626985}
+Property(S): INSTALLFOLDER = C:\Program Files\RFFLogFixture-ok\
+Property(S): ProgramFiles64Folder = C:\Program Files\
+Property(S): TARGETDIR = C:\
+Property(S): SourceDir = C:\rfflog\
+Property(S): MsiLogFileLocation = C:\rfflog\logs\02-ok-majorupgrade.log
+Property(S): PackageCode = {38DA064B-44CC-45C3-8CE9-439B2B994F54}
+Property(S): ProductState = -1
+Property(S): PackagecodeChanging = 1
+Property(S): CURRENTDIRECTORY = C:\Users\Administrator\Documents
+Property(S): CLIENTUILEVEL = 3
+Property(S): CLIENTPROCESSID = 6800
+Property(S): VersionDatabase = 500
+Property(S): VersionMsi = 5.00
+Property(S): VersionNT = 603
+Property(S): VersionNT64 = 603
+Property(S): WindowsBuild = 9600
+Property(S): ServicePackLevel = 0
+Property(S): ServicePackLevelMinor = 0
+Property(S): MsiNTProductType = 1
+Property(S): WindowsFolder = C:\Windows\
+Property(S): WindowsVolume = C:\
+Property(S): System64Folder = C:\Windows\system32\
+Property(S): SystemFolder = C:\Windows\SysWOW64\
+Property(S): RemoteAdminTS = 1
+Property(S): TempFolder = C:\Users\ADMINI~1\AppData\Local\Temp\
+Property(S): ProgramFilesFolder = C:\Program Files (x86)\
+Property(S): CommonFilesFolder = C:\Program Files (x86)\Common Files\
+Property(S): CommonFiles64Folder = C:\Program Files\Common Files\
+Property(S): AppDataFolder = C:\Users\Administrator\AppData\Roaming\
+Property(S): FavoritesFolder = C:\Users\Administrator\Favorites\
+Property(S): NetHoodFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Network Shortcuts\
+Property(S): PersonalFolder = C:\Users\Administrator\Documents\
+Property(S): PrintHoodFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Printer Shortcuts\
+Property(S): RecentFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent\
+Property(S): SendToFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\SendTo\
+Property(S): TemplateFolder = C:\ProgramData\Microsoft\Windows\Templates\
+Property(S): CommonAppDataFolder = C:\ProgramData\
+Property(S): LocalAppDataFolder = C:\Users\Administrator\AppData\Local\
+Property(S): MyPicturesFolder = C:\Users\Administrator\Pictures\
+Property(S): AdminToolsFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(S): StartupFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
+Property(S): ProgramMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+Property(S): StartMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\
+Property(S): DesktopFolder = C:\Users\Public\Desktop\
+Property(S): FontsFolder = C:\Windows\Fonts\
+Property(S): GPTSupport = 1
+Property(S): OLEAdvtSupport = 1
+Property(S): ShellAdvtSupport = 1
+Property(S): MsiAMD64 = 23
+Property(S): Msix64 = 23
+Property(S): Intel = 23
+Property(S): PhysicalMemory = 3289
+Property(S): VirtualMemory = 1200
+Property(S): AdminUser = 1
+Property(S): MsiTrueAdminUser = 1
+Property(S): LogonUser = Administrator
+Property(S): UserSID = S-1-5-21-1489226388-2033643539-3966603402-500
+Property(S): UserLanguageID = 1033
+Property(S): ComputerName = CLIENT3
+Property(S): SystemLanguageID = 1033
+Property(S): ScreenX = 1024
+Property(S): ScreenY = 768
+Property(S): CaptionHeight = 23
+Property(S): BorderTop = 1
+Property(S): BorderSide = 1
+Property(S): TextHeight = 16
+Property(S): TextInternalLeading = 3
+Property(S): ColorBits = 32
+Property(S): TTCSupport = 1
+Property(S): Time = 21:04:38
+Property(S): Date = 11/23/2026
+Property(S): MsiNetAssemblySupport = 4.8.9221.0
+Property(S): MsiWin32AssemblySupport = 6.3.26100.9818
+Property(S): RedirectedDllSupport = 2
+Property(S): MsiRunningElevated = 1
+Property(S): Privileged = 1
+Property(S): USERNAME = Windows User
+Property(S): COMPANYNAME = X
+Property(S): DATABASE = C:\Windows\Installer\fc7df.msi
+Property(S): OriginalDatabase = C:\rfflog\rfflog-ok-2.0.0.msi
+Property(S): UILevel = 2
+Property(S): ACTION = INSTALL
+Property(S): MIGRATE = {61BEC5C3-7562-47F5-A621-E5950D626985}
+Property(S): ROOTDRIVE = C:\
+Property(S): CostingComplete = 1
+Property(S): OutOfDiskSpace = 0
+Property(S): OutOfNoRbDiskSpace = 0
+Property(S): PrimaryVolumeSpaceAvailable = 0
+Property(S): PrimaryVolumeSpaceRequired = 0
+Property(S): PrimaryVolumeSpaceRemaining = 0
+Property(S): INSTALLLEVEL = 1
+Property(S): SOURCEDIR = C:\rfflog\
+Property(S): SourcedirProduct = {67A4A902-925A-493C-ADFD-EF3DB5353044}
+Property(S): ProductToBeRegistered = 1
+MSI (s) (DC:F0) [21:04:38:065]: Note: 1: 1707 
+MSI (s) (DC:F0) [21:04:38:067]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:38:067]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1707 
+MSI (s) (DC:F0) [21:04:38:067]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:F0) [21:04:38:067]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1709 
+MSI (s) (DC:F0) [21:04:38:067]: Product: RFF Log Fixture ok -- Installation completed successfully.
+
+MSI (s) (DC:F0) [21:04:38:067]: Windows Installer installed the product. Product Name: RFF Log Fixture ok. Product Version: 2.0.0. Product Language: 1033. Manufacturer: RFF Lab. Installation success or error status: 0.
+
+MSI (s) (DC:F0) [21:04:38:083]: Deferring clean up of packages/files, if any exist
+MSI (s) (DC:F0) [21:04:38:083]: MainEngineThread is returning 0
+MSI (s) (DC:A4) [21:04:38:083]: No System Restore sequence number for this installation.
+=== Logging stopped: 11/23/2026  21:04:38 ===
+MSI (s) (DC:A4) [21:04:38:093]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:A4) [21:04:38:093]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:A4) [21:04:38:093]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (DC:A4) [21:04:38:093]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:A4) [21:04:38:115]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (DC:A4) [21:04:38:115]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:A4) [21:04:38:117]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (s) (DC:A4) [21:04:38:117]: Post-install cleanup: removing installer file 'C:\Windows\Installer\fc7de.msi'
+MSI (c) (90:10) [21:04:38:119]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (90:10) [21:04:38:119]: MainEngineThread is returning 0
+=== Verbose logging stopped: 11/23/2026  21:04:38 ===
+

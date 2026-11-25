@@ -1,0 +1,311 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Logo from '../components/Logo.astro';
+import '../styles/tools.css';
+// noindex while unreleased, from the one list - see src/lib/unreleased.ts.
+
+const title = 'MSI Log Reader - Why did this MSI install fail? Free 1603 explainer';
+const description =
+  'Drop a verbose msiexec log (/l*v) and get the action that failed, the custom action and its exit code, ' +
+  'what it printed, and what 1603, 1618, 1638, 1722 or 1920 means in that log. Runs in your browser; nothing is uploaded.';
+
+const faq = [
+  ['How do I make a verbose MSI log?',
+   'Add /l*v and a path to the msiexec command line: msiexec /i package.msi /qn /l*v C:\\Windows\\Temp\\install.log. For an uninstall use /x instead of /i. Setup programs built with WiX Burn write their own log to %TEMP% plus one log per MSI they run.'],
+  ['What does "Return value 3" mean?',
+   'An action failed. Windows Installer logs "Return value 1" for success, 2 for a cancel and 3 for a failure. The first "Return value 3" in the log is the one that matters. The later ones are its parent actions unwinding. When the failing step is a deferred custom action, Windows Installer logs the 3 for InstallFinalize, and this page names the custom action that was running inside it.'],
+  ['Why is the exit code 1603 when the problem is something else?',
+   '1603 is the generic "fatal error during installation" code. Nearly every failure ends as 1603. The useful part is the step before it: a custom action that exited with its own code, a service that did not start, a file another program held open.'],
+  ['Is my log uploaded?',
+   'No. The file is read by JavaScript in this page and never leaves your browser. Logs hold machine names, user names and paths. They stay on your machine.'],
+  ['Which logs does it read?',
+   'Verbose Windows Installer logs (msiexec /l*v), in UTF-16 or ANSI, including files that hold several runs appended together, and WiX Burn bootstrapper logs from setup .exe files. Logs written without the v flag still work, with less detail.'],
+];
+const siteUrl = (Astro.site ?? new URL('https://getrff.com')).toString();
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'MSI Log Reader',
+    applicationCategory: 'DeveloperApplication',
+    operatingSystem: 'Windows',
+    description,
+    url: new URL('/msi-log/', siteUrl).toString(),
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(([q, a]) => ({
+      '@type': 'Question', name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  },
+];
+---
+
+<Layout title={title} description={description}>
+  <header class="tool-nav">
+    <a href="https://getrff.com" aria-label="RFF home"><Logo /></a>
+    <a href="https://getrff.com/tools/" class="tool-nav-by">More free tools &rarr;</a>
+  </header>
+
+  <main class="tools-wrap">
+    <div class="tool-hero">
+      <h1>MSI Log Reader</h1>
+      <p class="sub">
+        <strong>Why did this MSI fail?</strong> Drop the verbose install log and get the step that failed, the
+        custom action behind it with its exit code and output, and what the error code means in this log.
+      </p>
+      <span class="privacy-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Runs entirely in your browser. Nothing is uploaded, stored, or sent to us.
+      </span>
+    </div>
+
+    <section class="panel">
+      <h2><span class="step-n">1</span>Get a verbose log</h2>
+      <p>If you do not have one yet, run the install again with logging on:</p>
+      <pre class="script"><code>msiexec /i "package.msi" /qn /l*v "C:\Windows\Temp\install.log"</code></pre>
+      <p>Deployment tools usually keep one already. Intune and most RMMs leave it in <code>C:\Windows\Temp</code> or the
+        tool's own log folder. A setup .exe built with WiX writes <code>%TEMP%\&lt;product&gt;_&lt;date&gt;.log</code> plus one log per MSI it ran.</p>
+    </section>
+
+    <section class="panel">
+      <h2><span class="step-n">2</span>Drop the log here</h2>
+      <label class="drop" id="drop" for="file" tabindex="0">
+        <input id="file" type="file" hidden accept=".log,.txt,text/plain" />
+        <p id="drop-msg">Drop the .log file here, or click to choose</p>
+      </label>
+      <textarea class="paste" id="paste" spellcheck="false" placeholder="Or paste the log, or the part around &quot;Return value 3&quot;."></textarea>
+      <div id="read-error" class="read-error hidden"></div>
+    </section>
+
+    <div id="report"></div>
+
+
+    <div class="tool-prose">
+      <h2>How to read an MSI log</h2>
+      <p>
+        A verbose Windows Installer log runs from a few thousand lines to several hundred thousand. The usual advice is
+        to search for "Return value 3". That finds the failing action, and for a deferred custom action the line it finds
+        is InstallFinalize, which tells you nothing. The custom action that failed, its exit code and anything it printed
+        sit a few hundred lines above.
+      </p>
+      <h3>What this page pulls out</h3>
+      <ul>
+        <li><strong>The failing step</strong>, including the deferred custom action that ran inside InstallFinalize.</li>
+        <li><strong>The custom action's own result</strong>: the command line and exit code of an EXE action, the command and exit code behind a WixQuietExec action, and the innermost exception from a .NET (DTF) custom action.</li>
+        <li><strong>Error messages in context</strong>: 1306 and 1603 file locks, 1920 services, 1722 programs, launch conditions and blocked downgrades.</li>
+        <li><strong>Upgrades</strong>: whether the failure happened while removing the OLD version inside a major upgrade, which changes what you fix.</li>
+        <li><strong>Burn bundles</strong>: which package in the chain failed, with its code, and where its own log is.</li>
+        <li><strong>Properties and timing</strong>: install folder, ALLUSERS, the account, transforms, and the slowest actions.</li>
+      </ul>
+      <p>
+        Every rule was checked against real logs: lab packages built to fail one way each, plus real installs of Firefox and
+        the .NET SDK.
+      </p>
+    </div>
+
+    <section class="tool-prose">
+      <h2>FAQ</h2>
+      {faq.map(([q, a]) => (
+        <div style="margin-bottom:16px">
+          <h3>{q}</h3>
+          <p>{a}</p>
+        </div>
+      ))}
+    </section>
+    <p class="byline">
+      Built by the <a href="https://getrff.com/">RFF</a> team. More <a href="https://getrff.com/tools/">free Windows tools</a>.
+    </p>
+  </main>
+</Layout>
+
+<script>
+  import { analyzeMsiLog, decodeLog, scavengeLog } from '../lib/msiLog';
+  import type { MsiAnalysis, Finding, AppEnforceRun } from '../lib/msiLog';
+
+  const $ = (id: string) => document.getElementById(id)!;
+  const esc = (s: unknown) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
+  const MAX_BYTES = 200 * 1024 * 1024;
+
+  const SEV: Record<Finding['severity'], [string, string]> = {
+    bad: ['pill-critical', 'Cause'], warn: ['pill-warn', 'Watch'], info: ['pill-info', 'Note'],
+  };
+  const VERDICT_KICK: Record<string, string> = {
+    success: 'Worked', reboot: 'Worked, reboot needed', failed: 'Failed', cancelled: 'Cancelled', unknown: 'No result',
+  };
+
+  function finding(f: Finding) {
+    return `<div class="finding"><div class="finding-head"><span class="pill ${SEV[f.severity][0]}">${SEV[f.severity][1]}</span></div>
+      <h3>${esc(f.headline)}</h3><p class="evidence">${esc(f.body)}</p></div>`;
+  }
+
+  function lines(rows: { line: number; text: string }[], mark?: number) {
+    return `<pre class="script log-lines">${rows.map(r =>
+      `<span class="${r.line === mark ? 'ln-hit' : ''}"><span class="ln">${r.line}</span>${esc(r.text)}</span>`).join('\n')}</pre>`;
+  }
+
+  const RUN_RESULT: Record<AppEnforceRun['result'], [string, string]> = {
+    success: ['pill-ok', 'Installed'], reboot: ['pill-ok', 'Restart needed'], already: ['pill-info', 'Already there'],
+    failed: ['pill-critical', 'Failed'], 'not-detected': ['pill-critical', 'Not detected'], unknown: ['pill-info', 'No result'],
+  };
+
+  // Any file the reader does not recognize: show what it can pull out, on request (Brian, 2026-11-24).
+  function renderScavenged(text: string) {
+    const s = scavengeLog(text);
+    let html = '';
+    if (s.codes.length) html += `<section class="panel"><h2>Exit and error codes</h2><table class="tbl"><tbody>${s.codes.map(c =>
+      `<tr><td class="num"><code>${esc(c.code)}</code></td><td>${c.meaning ? esc(c.meaning) + '<div class="dim">' : '<div class="dim">'}line ${c.line}: ${esc(c.text)}</div></td></tr>`).join('')}</tbody></table></section>`;
+    if (s.logs.length) html += `<section class="panel"><h2>Other logs it mentions</h2><p>The reason is often in one of these. Drop it here.</p><ul>${s.logs.map(l => `<li><code>${esc(l)}</code></li>`).join('')}</ul></section>`;
+    if (s.commands.length) html += `<section class="panel"><h2>Command lines</h2>${lines(s.commands)}</section>`;
+    if (s.failures.length) html += `<section class="panel"><h2>Lines that mention a failure (${s.failures.length}${s.failures.length >= 40 ? ', the first 40' : ''})</h2>${lines(s.failures)}</section>`;
+    $('scavenged').innerHTML = html || '<p class="dim">Nothing that looks like an exit code, an error line, a command line or another log path.</p>';
+  }
+
+  function render(a: MsiAnalysis, text = '') {
+    // What the feedback form sends: the verdict, never log lines (they carry machine and user names).
+    (window as unknown as { rffFeedbackContext: () => unknown }).rffFeedbackContext = () => ({
+      kind: a.kind, verdict: a.verdict, headline: a.headline, lines: a.lineCount, failingAction: a.failing?.name,
+      deployments: a.appEnforce?.length,
+    });
+    if (a.kind === 'unknown') {
+      $('report').innerHTML = `<div class="parse-error">${esc(a.headline)}. ${esc(a.summary)}</div>` +
+        (text.trim() ? `<p><button type="button" class="btn" id="scavenge">Look for anything useful anyway</button></p><div id="scavenged"></div>` : '');
+      document.getElementById('scavenge')?.addEventListener('click', () => renderScavenged(text));
+      return;
+    }
+    const s = a.sessions[a.focus];
+    const meta: string[] = [];
+    if (s?.product) meta.push(esc(s.product + (s.version ? ' ' + s.version : '')));
+    if (s?.manufacturer) meta.push(esc(s.manufacturer));
+    if (s?.exitCode !== undefined) meta.push('exit code ' + s.exitCode);
+    if (s?.started) meta.push(esc(s.started));
+    if (a.durationSeconds !== undefined) meta.push(a.durationSeconds + ' s');
+    meta.push(a.lineCount.toLocaleString() + ' lines');
+
+    let html = `<section class="answer v-${esc(a.verdict)}" id="answer">
+      <p class="kick">${esc(VERDICT_KICK[a.verdict] ?? a.verdict)}</p>
+      <p class="verdict">${esc(a.headline)}</p>
+      <p class="summary">${esc(a.summary)}</p>
+      <p class="meta">${meta.join(' &middot; ')}</p></section>`;
+
+    if (a.findings.length) html += `<section class="panel"><h2>What the log says</h2>${a.findings.map(finding).join('')}</section>`;
+
+    const f = a.failing;
+    if (f && (f.output.length || f.command || f.entryPoint || f.data)) {
+      const rows: string[] = [];
+      rows.push(`<tr><th>Action</th><td><code>${esc(f.name)}</code>${f.reportedBy !== f.name ? ` <span class="dim">(ran inside ${esc(f.reportedBy)})</span>` : ''}</td></tr>`);
+      if (f.command) rows.push(`<tr><th>Ran</th><td><code>${esc(f.command)}</code></td></tr>`);
+      if (f.entryPoint) rows.push(`<tr><th>DLL entry point</th><td><code>${esc(f.entryPoint)}</code></td></tr>`);
+      if (f.data) rows.push(`<tr><th>Given</th><td><code>${esc(f.data)}</code></td></tr>`);
+      if (f.commandExit !== undefined) rows.push(`<tr><th>Command exit code</th><td>${f.commandExit}</td></tr>`);
+      if (f.caExitCode !== undefined) rows.push(`<tr><th>Action returned</th><td>${f.caExitCode}</td></tr>`);
+      rows.push(`<tr><th>Line</th><td>${f.line}</td></tr>`);
+      html += `<section class="panel"><h2>The step that failed</h2><table class="tbl kv"><tbody>${rows.join('')}</tbody></table>` +
+        (f.output.length ? `<h3 class="sub-h">What it wrote to the log</h3><pre class="script">${esc(f.output.join('\n'))}</pre>` : '') + `</section>`;
+    }
+
+    if (a.burn) {
+      const b = a.burn;
+      html += `<section class="panel"><h2>Packages in the bundle</h2>` + (b.packages.length
+        ? `<table class="tbl"><thead><tr><th>Package</th><th>Result</th><th>Its log</th></tr></thead><tbody>${b.packages.map(p =>
+          `<tr><td><code>${esc(p.id)}</code></td><td>${p.resultCode ? `<span class="pill pill-critical">${esc(p.result)}</span>` : `<span class="pill pill-ok">${esc(p.result)}</span>`}</td><td><code>${esc(p.log ?? '')}</code></td></tr>`).join('')}</tbody></table>`
+        : '<p>No package was applied in this run.</p>') +
+        (b.errors.length ? `<h3 class="sub-h">Errors the bundle logged</h3>${lines(b.errors.slice(0, 20).map(e => ({ line: e.line, text: e.text })))}` : '') + `</section>`;
+    }
+
+    if (a.appEnforce?.length) {
+      const focusLine = a.context[0]?.line;
+      html += `<section class="panel"><h2>Every deployment in this log (${a.appEnforce.length})</h2><table class="tbl"><thead><tr><th>When</th><th>Deployment type</th><th>Result</th><th>Code</th></tr></thead><tbody>${[...a.appEnforce].reverse().map(r =>
+        `<tr${r.line === focusLine ? ' class="row-focus"' : ''}><td>${esc(r.when ?? '')}</td><td>${esc(r.app)}${r.op === 'Uninstall' ? ' <span class="dim">(uninstall)</span>' : ''}${r.command ? `<div class="dim"><code>${esc(r.command)}</code></div>` : ''}</td>` +
+        `<td><span class="pill ${RUN_RESULT[r.result][0]}">${RUN_RESULT[r.result][1]}</span></td><td class="num">${esc(r.hresult ?? r.exitCode ?? '')}</td></tr>`).join('')}</tbody></table></section>`;
+    }
+
+    if (a.context.length) html += `<details class="panel disclosure"><summary>The lines around ${f ? 'the failure' : a.kind === 'appenforce' ? 'this deployment' : 'the end'}</summary>${lines(a.context, f?.line)}</details>`;
+
+    const errs = a.errors.filter(e => e.code !== 1708);
+    if (errs.length) html += `<details class="panel disclosure"><summary>Every error message (${errs.length})</summary><table class="tbl"><tbody>${errs.map(e =>
+      `<tr><td class="num">${e.code}</td><td>${esc(e.text)} <span class="dim">line ${e.line}</span></td></tr>`).join('')}</tbody></table></details>`;
+
+    if (a.inUse.length) html += `<details class="panel disclosure" open><summary>Programs holding files (${a.inUse.length})</summary><table class="tbl"><tbody>${a.inUse.map(u =>
+      `<tr><td>${esc(u.process)}${u.pid ? ` <span class="dim">PID ${u.pid}</span>` : ''}</td><td><code>${esc(u.file)}</code></td></tr>`).join('')}</tbody></table></details>`;
+
+    if (a.notable.length) html += `<details class="panel disclosure"><summary>Key properties</summary><table class="tbl"><tbody>${a.notable.map(p =>
+      `<tr><td><code>${esc(p.name)}</code></td><td><code>${esc(p.value)}</code><div class="dim">${esc(p.why)}</div></td></tr>`).join('')}</tbody></table></details>`;
+
+    if (a.properties.length) html += `<details class="panel disclosure" id="all-props"><summary>All ${a.properties.length} properties</summary>
+      <input class="prop-filter" id="prop-filter" type="search" placeholder="Filter by name or value" aria-label="Filter properties" />
+      <table class="tbl"><tbody id="prop-rows">${a.properties.map(p =>
+        `<tr><td><code>${esc(p.name)}</code></td><td><code>${esc(p.value)}</code></td></tr>`).join('')}</tbody></table></details>`;
+
+    if (a.slowest.length) html += `<details class="panel disclosure"><summary>Slowest actions</summary><table class="tbl"><tbody>${a.slowest.map(x =>
+      `<tr><td><code>${esc(x.action)}</code></td><td class="num">${x.seconds} s</td></tr>`).join('')}</tbody></table></details>`;
+
+    if (a.sessions.length > 1) html += `<details class="panel disclosure" open><summary>Runs in this file (${a.sessions.length})</summary><table class="tbl"><thead><tr><th>#</th><th>Started</th><th>Product</th><th>Operation</th><th>Exit</th></tr></thead><tbody>${a.sessions.map((r, i) =>
+      `<tr${i === a.focus ? ' class="row-focus"' : ''}><td>${i + 1}</td><td>${esc(r.started ?? '')}</td><td>${esc(r.product ?? '')}</td><td>${esc(r.operation)}</td><td>${r.exitCode ?? ''}</td></tr>`).join('')}</tbody></table></details>`;
+
+    $('report').innerHTML = html;
+    const filter = document.getElementById('prop-filter') as HTMLInputElement | null;
+    filter?.addEventListener('input', () => {
+      const q = filter.value.toLowerCase();
+      for (const tr of Array.from($('prop-rows').children) as HTMLElement[]) tr.hidden = !!q && !tr.textContent!.toLowerCase().includes(q);
+    });
+    $('answer').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function ingest(text: string) {
+    $('read-error').classList.add('hidden');
+    if (!text.trim()) { $('report').innerHTML = ''; return; }
+    try { render(analyzeMsiLog(text), text); }
+    catch (err) {
+      console.error(err);
+      $('report').innerHTML = '<div class="parse-error">Something went wrong reading that log. That is a bug on our side, not a problem with your log.</div>';
+    }
+  }
+
+  function showReadError(m: string) { $('read-error').textContent = m; $('read-error').classList.remove('hidden'); }
+  let t: number | undefined;
+  function readFile(f: File) {
+    // A paste still waiting on its debounce must not land after the file and wipe its result.
+    clearTimeout(t);
+    if (f.size > MAX_BYTES) { showReadError(`That file is ${(f.size / 1048576).toFixed(0)} MB, too large for the browser. Cut it to the part around "Return value 3" and paste that.`); return; }
+    $('drop-msg').textContent = `Reading ${f.name}...`;
+    f.arrayBuffer().then(buf => {
+      $('drop-msg').textContent = `Loaded ${f.name}`;
+      ($('paste') as HTMLTextAreaElement).value = '';
+      ingest(decodeLog(buf));
+    }, () => showReadError(`Could not read ${f.name}. Copy it somewhere local and try again.`));
+  }
+
+  const drop = $('drop');
+  drop.addEventListener('dragover', e => { e.preventDefault(); drop.classList.add('drag'); });
+  drop.addEventListener('dragleave', () => drop.classList.remove('drag'));
+  drop.addEventListener('drop', e => { e.preventDefault(); drop.classList.remove('drag'); const f = e.dataTransfer?.files?.[0]; if (f) readFile(f); });
+  ($('file') as HTMLInputElement).addEventListener('change', e => { const f = (e.target as HTMLInputElement).files?.[0]; if (f) readFile(f); });
+  ($('paste') as HTMLTextAreaElement).addEventListener('input', e => {
+    clearTimeout(t);
+    const v = (e.target as HTMLTextAreaElement).value;
+    t = window.setTimeout(() => { $('drop-msg').textContent = 'Drop the .log file here, or click to choose'; ingest(v); }, 250);
+  });
+</script>
+
+<style is:global>
+  /* is:global: the report is built with innerHTML, which never gets Astro's scope attribute. */
+  .answer .summary { font-size: 14.5px; color: var(--ink-2); line-height: 1.55; margin: 10px 0 0; }
+  .answer.v-failed { border-color: var(--danger); }
+  .answer.v-success { border-color: var(--success); }
+  .answer.v-reboot, .answer.v-cancelled, .answer.v-unknown { border-color: var(--warning); }
+  .sub-h { font-size: 13px; font-weight: 700; margin: 16px 0 6px; color: var(--ink-2); }
+  .kv th { width: 150px; white-space: nowrap; vertical-align: top; padding-top: 7px; }
+  .tbl code, .finding code { font-family: var(--font-mono); font-size: 12px; overflow-wrap: anywhere; }
+  .num { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .log-lines { font-size: 11.5px; line-height: 1.5; max-height: 460px; overflow: auto; white-space: pre; }
+  .log-lines .ln { display: inline-block; min-width: 5ch; color: var(--ink-3); user-select: none; margin-right: 1ch; text-align: right; }
+  .log-lines .ln-hit { background: var(--danger-bg); color: var(--danger); font-weight: 600; }
+  .prop-filter { width: 100%; box-sizing: border-box; margin: 10px 0 4px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--ink); font: inherit; font-size: 13px; }
+  .row-focus td { font-weight: 700; }
+  textarea.paste { margin-top: 10px; }
+  details.disclosure > summary { cursor: pointer; font-size: 14.5px; font-weight: 700; }
+</style>

@@ -1,0 +1,349 @@
+=== Verbose logging started: 11/23/2026  21:04:40  Build type: SHIP UNICODE 5.00.10011.00  Calling process: C:\Windows\system32\msiexec.exe ===
+MSI (c) (14:60) [21:04:40:283]: Resetting cached policy values
+MSI (c) (14:60) [21:04:40:283]: Machine policy value 'Debug' is 0
+MSI (c) (14:60) [21:04:40:283]: ******* RunEngine:
+           ******* Product: C:\rfflog\rfflog-launch-1.0.0.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (c) (14:60) [21:04:40:285]: Client-side and UI is none or basic: Running entire install on the server.
+MSI (c) (14:60) [21:04:40:285]: Grabbed execution mutex.
+MSI (c) (14:60) [21:04:40:307]: Cloaking enabled.
+MSI (c) (14:60) [21:04:40:307]: Attempting to enable all disabled privileges before calling Install on Server
+MSI (c) (14:60) [21:04:40:313]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (DC:A4) [21:04:40:325]: Running installation inside multi-package transaction C:\rfflog\rfflog-launch-1.0.0.msi
+MSI (s) (DC:A4) [21:04:40:325]: Grabbed execution mutex.
+MSI (s) (DC:58) [21:04:40:327]: Resetting cached policy values
+MSI (s) (DC:58) [21:04:40:327]: Machine policy value 'Debug' is 0
+MSI (s) (DC:58) [21:04:40:327]: ******* RunEngine:
+           ******* Product: C:\rfflog\rfflog-launch-1.0.0.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (s) (DC:58) [21:04:40:327]: Machine policy value 'DisableUserInstalls' is 0
+MSI (s) (DC:58) [21:04:40:331]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:58) [21:04:40:331]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (DC:58) [21:04:40:335]: File will have security applied from OpCode.
+MSI (s) (DC:58) [21:04:40:347]: SOFTWARE RESTRICTION POLICY: Verifying package --> 'C:\rfflog\rfflog-launch-1.0.0.msi' against software restriction policy
+MSI (s) (DC:58) [21:04:40:347]: Note: 1: 2262 2: DigitalSignature 3: -2147287038 
+MSI (s) (DC:58) [21:04:40:347]: SOFTWARE RESTRICTION POLICY: C:\rfflog\rfflog-launch-1.0.0.msi is not digitally signed
+MSI (s) (DC:58) [21:04:40:354]: SOFTWARE RESTRICTION POLICY: C:\rfflog\rfflog-launch-1.0.0.msi is permitted to run at the 'unrestricted' authorization level.
+MSI (s) (DC:58) [21:04:40:354]: MSCOREE not loaded loading copy from system32
+MSI (s) (DC:58) [21:04:40:364]: End dialog not enabled
+MSI (s) (DC:58) [21:04:40:364]: Original package ==> C:\rfflog\rfflog-launch-1.0.0.msi
+MSI (s) (DC:58) [21:04:40:364]: Package we're running from ==> C:\Windows\Installer\fc7ee.msi
+MSI (s) (DC:58) [21:04:40:366]: APPCOMPAT: Compatibility mode property overrides found.
+MSI (s) (DC:58) [21:04:40:368]: APPCOMPAT: looking for appcompat database entry with ProductCode '{6DCFE396-2A1F-42B8-A275-B8C77D8C336C}'.
+MSI (s) (DC:58) [21:04:40:368]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:58) [21:04:40:380]: Machine policy value 'TransformsSecure' is 0
+MSI (s) (DC:58) [21:04:40:380]: User policy value 'TransformsAtSource' is 0
+MSI (s) (DC:58) [21:04:40:380]: Machine policy value 'DisablePatch' is 0
+MSI (s) (DC:58) [21:04:40:380]: Machine policy value 'AllowLockdownPatch' is 0
+MSI (s) (DC:58) [21:04:40:380]: Machine policy value 'DisableLUAPatching' is 0
+MSI (s) (DC:58) [21:04:40:380]: Machine policy value 'DisableFlyWeightPatching' is 0
+MSI (s) (DC:58) [21:04:40:394]: APPCOMPAT: looking for appcompat database entry with ProductCode '{6DCFE396-2A1F-42B8-A275-B8C77D8C336C}'.
+MSI (s) (DC:58) [21:04:40:394]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (DC:58) [21:04:40:400]: Transforms are not secure.
+MSI (s) (DC:58) [21:04:40:400]: Note: 1: 2205 2:  3: Control 
+MSI (s) (DC:58) [21:04:40:400]: PROPERTY CHANGE: Adding MsiLogFileLocation property. Its value is 'C:\rfflog\logs\06-launch-fail.log'.
+MSI (s) (DC:58) [21:04:40:400]: Command Line: CURRENTDIRECTORY=C:\Users\Administrator\Documents CLIENTUILEVEL=3 CLIENTPROCESSID=2580 
+MSI (s) (DC:58) [21:04:40:400]: PROPERTY CHANGE: Adding PackageCode property. Its value is '{719D8AF9-4E5E-4355-B93E-A3EE36C334D7}'.
+MSI (s) (DC:58) [21:04:40:400]: Product Code passed to Engine.Initialize:           ''
+MSI (s) (DC:58) [21:04:40:400]: Product Code from property table before transforms: '{6DCFE396-2A1F-42B8-A275-B8C77D8C336C}'
+MSI (s) (DC:58) [21:04:40:400]: Product Code from property table after transforms:  '{6DCFE396-2A1F-42B8-A275-B8C77D8C336C}'
+MSI (s) (DC:58) [21:04:40:400]: Product not registered: beginning first-time install
+MSI (s) (DC:58) [21:04:40:400]: Product {6DCFE396-2A1F-42B8-A275-B8C77D8C336C} is not managed.
+MSI (s) (DC:58) [21:04:40:400]: MSI_LUA: Credential prompt not required, user is an admin
+MSI (s) (DC:58) [21:04:40:400]: PROPERTY CHANGE: Adding ProductState property. Its value is '-1'.
+MSI (s) (DC:58) [21:04:40:400]: Entering CMsiConfigurationManager::SetLastUsedSource.
+MSI (s) (DC:58) [21:04:40:400]: User policy value 'SearchOrder' is 'nmu'
+MSI (s) (DC:58) [21:04:40:400]: Adding new sources is allowed.
+MSI (s) (DC:58) [21:04:40:400]: PROPERTY CHANGE: Adding PackagecodeChanging property. Its value is '1'.
+MSI (s) (DC:58) [21:04:40:400]: Package name extracted from package path: 'rfflog-launch-1.0.0.msi'
+MSI (s) (DC:58) [21:04:40:400]: Package to be registered: 'rfflog-launch-1.0.0.msi'
+MSI (s) (DC:58) [21:04:40:400]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:58) [21:04:40:404]: Note: 1: 2262 2: AdminProperties 3: -2147287038 
+MSI (s) (DC:58) [21:04:40:404]: Machine policy value 'DisableMsi' is 0
+MSI (s) (DC:58) [21:04:40:404]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:58) [21:04:40:404]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (DC:58) [21:04:40:404]: Product installation will be elevated because user is admin and product is being installed per-machine.
+MSI (s) (DC:58) [21:04:40:404]: Running product '{6DCFE396-2A1F-42B8-A275-B8C77D8C336C}' with elevated privileges: Product is assigned.
+MSI (s) (DC:58) [21:04:40:404]: PROPERTY CHANGE: Adding CURRENTDIRECTORY property. Its value is 'C:\Users\Administrator\Documents'.
+MSI (s) (DC:58) [21:04:40:404]: PROPERTY CHANGE: Adding CLIENTUILEVEL property. Its value is '3'.
+MSI (s) (DC:58) [21:04:40:404]: PROPERTY CHANGE: Adding CLIENTPROCESSID property. Its value is '2580'.
+MSI (s) (DC:58) [21:04:40:404]: Machine policy value 'DisableAutomaticApplicationShutdown' is 1
+MSI (s) (DC:58) [21:04:40:404]: RESTART MANAGER: Disabled by DisableAutomaticApplicationShutdown system policy; Windows Installer will use the built-in FilesInUse functionality.
+MSI (s) (DC:58) [21:04:40:404]: TRANSFORMS property is now: 
+MSI (s) (DC:58) [21:04:40:404]: PROPERTY CHANGE: Adding VersionDatabase property. Its value is '500'.
+MSI (s) (DC:58) [21:04:40:408]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming
+MSI (s) (DC:58) [21:04:40:410]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Favorites
+MSI (s) (DC:58) [21:04:40:414]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+MSI (s) (DC:58) [21:04:40:416]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Documents
+MSI (s) (DC:58) [21:04:40:418]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+MSI (s) (DC:58) [21:04:40:420]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent
+MSI (s) (DC:58) [21:04:40:422]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\SendTo
+MSI (s) (DC:58) [21:04:40:424]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Templates
+MSI (s) (DC:58) [21:04:40:424]: SHELL32::SHGetFolderPath returned: C:\ProgramData
+MSI (s) (DC:58) [21:04:40:426]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Local
+MSI (s) (DC:58) [21:04:40:428]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Pictures
+MSI (s) (DC:58) [21:04:40:434]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (DC:58) [21:04:40:436]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (DC:58) [21:04:40:436]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+MSI (s) (DC:58) [21:04:40:438]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu
+MSI (s) (DC:58) [21:04:40:440]: SHELL32::SHGetFolderPath returned: C:\Users\Public\Desktop
+MSI (s) (DC:58) [21:04:40:444]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (DC:58) [21:04:40:446]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (DC:58) [21:04:40:447]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+MSI (s) (DC:58) [21:04:40:451]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu
+MSI (s) (DC:58) [21:04:40:455]: SHELL32::SHGetFolderPath returned: C:\Users\Administrator\Desktop
+MSI (s) (DC:58) [21:04:40:457]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Templates
+MSI (s) (DC:58) [21:04:40:457]: SHELL32::SHGetFolderPath returned: C:\Windows\Fonts
+MSI (s) (DC:58) [21:04:40:459]: Note: 1: 2898 2: MS Sans Serif 3: MS Sans Serif 4: 0 5: 16 
+MSI (s) (DC:58) [21:04:40:473]: MSI_LUA: Setting MsiRunningElevated property to 1 because the install is already running elevated.
+MSI (s) (DC:58) [21:04:40:473]: PROPERTY CHANGE: Adding MsiRunningElevated property. Its value is '1'.
+MSI (s) (DC:58) [21:04:40:473]: PROPERTY CHANGE: Adding Privileged property. Its value is '1'.
+MSI (s) (DC:58) [21:04:40:473]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (DC:58) [21:04:40:473]: PROPERTY CHANGE: Adding USERNAME property. Its value is 'Windows User'.
+MSI (s) (DC:58) [21:04:40:473]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (DC:58) [21:04:40:473]: PROPERTY CHANGE: Adding COMPANYNAME property. Its value is 'X'.
+MSI (s) (DC:58) [21:04:40:473]: PROPERTY CHANGE: Adding DATABASE property. Its value is 'C:\Windows\Installer\fc7ee.msi'.
+MSI (s) (DC:58) [21:04:40:473]: PROPERTY CHANGE: Adding OriginalDatabase property. Its value is 'C:\rfflog\rfflog-launch-1.0.0.msi'.
+MSI (s) (DC:58) [21:04:40:473]: Machine policy value 'MsiDisableEmbeddedUI' is 0
+MSI (s) (DC:58) [21:04:40:473]: EEUI - Disabling MsiEmbeddedUI for service because it's not a quiet/basic install
+MSI (s) (DC:58) [21:04:40:473]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (DC:58) [21:04:40:473]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:58) [21:04:40:473]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:58) [21:04:40:473]: PROPERTY CHANGE: Adding UILevel property. Its value is '2'.
+=== Logging started: 11/23/2026  21:04:40 ===
+MSI (s) (DC:58) [21:04:40:475]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT property. Its current value is '603'. Its new value: '601'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT64 property. Its current value is '603'. Its new value: '601'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '0'. Its new value: '14'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '14'. Its new value: '13'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '13'. Its new value: '12'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '12'. Its new value: '11'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '11'. Its new value: '10'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '10'. Its new value: '9'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '9'. Its new value: '8'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '8'. Its new value: '7'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '7'. Its new value: '6'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '6'. Its new value: '5'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '5'. Its new value: '4'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '4'. Its new value: '3'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '3'. Its new value: '2'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '2'. Its new value: '1'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '1'. Its new value: '0'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT property. Its current value is '601'. Its new value: '600'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT64 property. Its current value is '601'. Its new value: '600'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '0'. Its new value: '14'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '14'. Its new value: '13'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '13'. Its new value: '12'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '12'. Its new value: '11'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '11'. Its new value: '10'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '10'. Its new value: '9'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '9'. Its new value: '8'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '8'. Its new value: '7'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '7'. Its new value: '6'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '6'. Its new value: '5'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '5'. Its new value: '4'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '4'. Its new value: '3'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '3'. Its new value: '2'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '2'. Its new value: '1'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '1'. Its new value: '0'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT property. Its current value is '600'. Its new value: '502'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT64 property. Its current value is '600'. Its new value: '502'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '0'. Its new value: '14'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '14'. Its new value: '13'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '13'. Its new value: '12'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '12'. Its new value: '11'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '11'. Its new value: '10'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '10'. Its new value: '9'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '9'. Its new value: '8'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '8'. Its new value: '7'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '7'. Its new value: '6'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '6'. Its new value: '5'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '5'. Its new value: '4'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '4'. Its new value: '3'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '3'. Its new value: '2'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '2'. Its new value: '1'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '1'. Its new value: '0'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT property. Its current value is '502'. Its new value: '501'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT64 property. Its current value is '502'. Its new value: '501'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '0'. Its new value: '14'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '14'. Its new value: '13'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '13'. Its new value: '12'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '12'. Its new value: '11'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '11'. Its new value: '10'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '10'. Its new value: '9'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '9'. Its new value: '8'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '8'. Its new value: '7'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '7'. Its new value: '6'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '6'. Its new value: '5'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '5'. Its new value: '4'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '4'. Its new value: '3'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '3'. Its new value: '2'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '2'. Its new value: '1'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '1'. Its new value: '0'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT property. Its current value is '501'. Its new value: '500'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT64 property. Its current value is '501'. Its new value: '500'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '0'. Its new value: '14'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '14'. Its new value: '13'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '13'. Its new value: '12'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '12'. Its new value: '11'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '11'. Its new value: '10'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '10'. Its new value: '9'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '9'. Its new value: '8'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '8'. Its new value: '7'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '7'. Its new value: '6'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '6'. Its new value: '5'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '5'. Its new value: '4'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '4'. Its new value: '3'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '3'. Its new value: '2'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '2'. Its new value: '1'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '1'. Its new value: '0'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT property. Its current value is '500'. Its new value: '400'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying VersionNT64 property. Its current value is '500'. Its new value: '400'.
+MSI (s) (DC:58) [21:04:40:475]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '0'. Its new value: '14'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '14'. Its new value: '13'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '13'. Its new value: '12'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '12'. Its new value: '11'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '11'. Its new value: '10'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '10'. Its new value: '9'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '9'. Its new value: '8'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '8'. Its new value: '7'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '7'. Its new value: '6'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '6'. Its new value: '5'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '5'. Its new value: '4'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '4'. Its new value: '3'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '3'. Its new value: '2'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '2'. Its new value: '1'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying ServicePackLevel property. Its current value is '1'. Its new value: '0'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying VersionNT property. Its current value is '400'. Its new value: '603'.
+MSI (s) (DC:58) [21:04:40:477]: PROPERTY CHANGE: Modifying VersionNT64 property. Its current value is '400'. Its new value: '603'.
+MSI (s) (DC:58) [21:04:40:533]: PROPERTY CHANGE: Adding ACTION property. Its value is 'INSTALL'.
+MSI (s) (DC:58) [21:04:40:533]: Doing action: INSTALL
+MSI (s) (DC:58) [21:04:40:533]: Note: 1: 2205 2:  3: ActionText 
+Action start 21:04:40: INSTALL.
+MSI (s) (DC:58) [21:04:40:535]: Running ExecuteSequence
+MSI (s) (DC:58) [21:04:40:535]: Doing action: FindRelatedProducts
+MSI (s) (DC:58) [21:04:40:535]: Note: 1: 2205 2:  3: ActionText 
+Action start 21:04:40: FindRelatedProducts.
+MSI (s) (DC:58) [21:04:40:537]: Doing action: LaunchConditions
+MSI (s) (DC:58) [21:04:40:537]: Note: 1: 2205 2:  3: ActionText 
+Action ended 21:04:40: FindRelatedProducts. Return value 1.
+Action start 21:04:40: LaunchConditions.
+MSI (s) (DC:58) [21:04:40:539]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:58) [21:04:40:539]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1709 
+MSI (s) (DC:58) [21:04:40:539]: Product: RFF Log Fixture launch -- RFF Log Fixture needs RFFOK=1 on the command line.
+
+RFF Log Fixture needs RFFOK=1 on the command line.
+Action ended 21:04:40: LaunchConditions. Return value 3.
+Action ended 21:04:40: INSTALL. Return value 3.
+Property(S): ALLUSERS = 1
+Property(S): Manufacturer = RFF Lab
+Property(S): ProductCode = {6DCFE396-2A1F-42B8-A275-B8C77D8C336C}
+Property(S): ProductLanguage = 1033
+Property(S): ProductName = RFF Log Fixture launch
+Property(S): ProductVersion = 1.0.0
+Property(S): UpgradeCode = {7E3C1B2A-5D4F-4E6A-9B8C-1A2B3C4D5E62}
+Property(S): SecureCustomProperties = WIX_DOWNGRADE_DETECTED;WIX_UPGRADE_DETECTED
+Property(S): ProgramFiles64Folder = C:\Program Files\
+Property(S): MsiLogFileLocation = C:\rfflog\logs\06-launch-fail.log
+Property(S): PackageCode = {719D8AF9-4E5E-4355-B93E-A3EE36C334D7}
+Property(S): ProductState = -1
+Property(S): PackagecodeChanging = 1
+Property(S): CURRENTDIRECTORY = C:\Users\Administrator\Documents
+Property(S): CLIENTUILEVEL = 3
+Property(S): CLIENTPROCESSID = 2580
+Property(S): VersionDatabase = 500
+Property(S): VersionMsi = 5.00
+Property(S): VersionNT = 603
+Property(S): ACTION = INSTALL
+Property(S): VersionNT64 = 603
+Property(S): WindowsBuild = 9600
+Property(S): ServicePackLevel = 0
+Property(S): ServicePackLevelMinor = 0
+Property(S): MsiNTProductType = 1
+Property(S): WindowsFolder = C:\Windows\
+Property(S): WindowsVolume = C:\
+Property(S): System64Folder = C:\Windows\system32\
+Property(S): SystemFolder = C:\Windows\SysWOW64\
+Property(S): RemoteAdminTS = 1
+Property(S): TempFolder = C:\Users\ADMINI~1\AppData\Local\Temp\
+Property(S): ProgramFilesFolder = C:\Program Files (x86)\
+Property(S): CommonFilesFolder = C:\Program Files (x86)\Common Files\
+Property(S): CommonFiles64Folder = C:\Program Files\Common Files\
+Property(S): AppDataFolder = C:\Users\Administrator\AppData\Roaming\
+Property(S): FavoritesFolder = C:\Users\Administrator\Favorites\
+Property(S): NetHoodFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Network Shortcuts\
+Property(S): PersonalFolder = C:\Users\Administrator\Documents\
+Property(S): PrintHoodFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Printer Shortcuts\
+Property(S): RecentFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent\
+Property(S): SendToFolder = C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\SendTo\
+Property(S): TemplateFolder = C:\ProgramData\Microsoft\Windows\Templates\
+Property(S): CommonAppDataFolder = C:\ProgramData\
+Property(S): LocalAppDataFolder = C:\Users\Administrator\AppData\Local\
+Property(S): MyPicturesFolder = C:\Users\Administrator\Pictures\
+Property(S): AdminToolsFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(S): StartupFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
+Property(S): ProgramMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+Property(S): StartMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\
+Property(S): DesktopFolder = C:\Users\Public\Desktop\
+Property(S): FontsFolder = C:\Windows\Fonts\
+Property(S): GPTSupport = 1
+Property(S): OLEAdvtSupport = 1
+Property(S): ShellAdvtSupport = 1
+Property(S): MsiAMD64 = 23
+Property(S): Msix64 = 23
+Property(S): Intel = 23
+Property(S): PhysicalMemory = 3289
+Property(S): VirtualMemory = 1195
+Property(S): AdminUser = 1
+Property(S): MsiTrueAdminUser = 1
+Property(S): LogonUser = Administrator
+Property(S): UserSID = S-1-5-21-1489226388-2033643539-3966603402-500
+Property(S): UserLanguageID = 1033
+Property(S): ComputerName = CLIENT3
+Property(S): SystemLanguageID = 1033
+Property(S): ScreenX = 1024
+Property(S): ScreenY = 768
+Property(S): CaptionHeight = 23
+Property(S): BorderTop = 1
+Property(S): BorderSide = 1
+Property(S): TextHeight = 16
+Property(S): TextInternalLeading = 3
+Property(S): ColorBits = 32
+Property(S): TTCSupport = 1
+Property(S): Time = 21:04:40
+Property(S): Date = 11/23/2026
+Property(S): MsiNetAssemblySupport = 4.8.9221.0
+Property(S): MsiWin32AssemblySupport = 6.3.26100.9818
+Property(S): RedirectedDllSupport = 2
+Property(S): MsiRunningElevated = 1
+Property(S): Privileged = 1
+Property(S): USERNAME = Windows User
+Property(S): COMPANYNAME = X
+Property(S): DATABASE = C:\Windows\Installer\fc7ee.msi
+Property(S): OriginalDatabase = C:\rfflog\rfflog-launch-1.0.0.msi
+Property(S): UILevel = 2
+MSI (s) (DC:58) [21:04:40:573]: Note: 1: 1708 
+MSI (s) (DC:58) [21:04:40:573]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:58) [21:04:40:573]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1708 
+MSI (s) (DC:58) [21:04:40:573]: Note: 1: 2205 2:  3: Error 
+MSI (s) (DC:58) [21:04:40:573]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1709 
+MSI (s) (DC:58) [21:04:40:573]: Product: RFF Log Fixture launch -- Installation failed.
+
+MSI (s) (DC:58) [21:04:40:580]: Windows Installer installed the product. Product Name: RFF Log Fixture launch. Product Version: 1.0.0. Product Language: 1033. Manufacturer: RFF Lab. Installation success or error status: 1603.
+
+MSI (s) (DC:58) [21:04:40:586]: Deferring clean up of packages/files, if any exist
+MSI (s) (DC:58) [21:04:40:586]: MainEngineThread is returning 1603
+MSI (s) (DC:A4) [21:04:40:588]: No System Restore sequence number for this installation.
+=== Logging stopped: 11/23/2026  21:04:40 ===
+MSI (s) (DC:A4) [21:04:40:588]: User policy value 'DisableRollback' is 0
+MSI (s) (DC:A4) [21:04:40:588]: Machine policy value 'DisableRollback' is 0
+MSI (s) (DC:A4) [21:04:40:588]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (DC:A4) [21:04:40:588]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:A4) [21:04:40:590]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (DC:A4) [21:04:40:590]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (14:60) [21:04:40:592]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (14:60) [21:04:40:592]: MainEngineThread is returning 1603
+=== Verbose logging stopped: 11/23/2026  21:04:40 ===
+

@@ -1,0 +1,16 @@
+=== Verbose logging started: 11/16/2026  6:36:55  Build type: SHIP UNICODE 5.00.10011.00  Calling process: C:\ProgramData\Package Cache\{c1b99ccd-d3a8-4586-97dc-11436d54a444}\dotnet-sdk-8.0.134-win-x64.exe ===
+MSI (c) (64:64) [06:36:55:632]: Resetting cached policy values
+MSI (c) (64:64) [06:36:55:632]: Machine policy value 'Debug' is 0
+MSI (c) (64:64) [06:36:55:632]: ******* RunEngine:
+           ******* Product: {D527F01F-BFE2-4BF1-B7D5-EF32A03E0C7B}
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (c) (64:64) [06:36:55:633]: Client-side and UI is none or basic: Running entire install on the server.
+MSI (c) (64:64) [06:36:58:635]: Failed to grab execution mutex. System error 258.
+MSI (c) (64:64) [06:36:58:647]: Cloaking enabled.
+MSI (c) (64:64) [06:36:58:647]: Attempting to enable all disabled privileges before calling Install on Server
+MSI (c) (64:64) [06:36:58:647]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (c) (64:64) [06:36:58:651]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (64:64) [06:36:58:656]: MainEngineThread is returning 1618
+=== Verbose logging stopped: 11/16/2026  6:36:58 ===
+

@@ -1,0 +1,18 @@
+# build output
+dist/
+.astro/
+
+# Claude Code local config (attribution disabled) - never publish this in the public repo
+.claude/
+
+# deps
+node_modules/
+
+# misc
+*.log
+.DS_Store
+.env
+.env.production
+
+# the real-log fixtures ARE .log files - the *.log rule above must not drop them
+!scripts/fixtures/**/*.log
